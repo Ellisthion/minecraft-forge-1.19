@@ -4,12 +4,12 @@
     "kubejs",
     "crafttweaker",
     "create",
-	"createdeco",
+    "createdeco",
     "thermal",
     "immersiveengineering",
     "mekanism",
-	"neapolitan",
-	"farmersdelight"
+    "neapolitan",
+    "farmersdelight"
   ],
   "stoneStrata": [
     "stone",
@@ -32,9 +32,10 @@
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
-	"forge:slag",
+    "forge:slag",
     "forge:coal_coke",
-    "forge:sawdust"
+    "forge:sawdust",
+    "forge:dough"
   ],
   "materials": [
     "aeternium",
@@ -84,8 +85,8 @@
     "tungsten",
     "uranium",
     "zinc",
-	"cast_iron",
-	"rose_gold"
+    "cast_iron",
+    "rose_gold"
   ],
   "priorityOverrides": {},
   "ignoredTags": [],

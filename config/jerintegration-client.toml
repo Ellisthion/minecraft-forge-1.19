@@ -6,7 +6,7 @@
 	#Enable / Disable patch for Create
 	create = true
 	#Enable / Disable patch for Immersive Engineering
-	immersiveengineering = true
+	immersiveengineering = false
 	#Enable / Disable patch for Tinkers' Construct
 	tconstruct = true
 	#Enable / Disable patch for Mekanism

@@ -1,0 +1,36 @@
+change journeymap defaults
+update morejs (check ImmEng villager trades)
+world changes not saving
+immeng multiblock render (fixed in upcoming update)
+test mechanical extruder
+use for echo shard
+
+ores:
+- botania orechid configuration
+- immersive engineering preferredOres and arc_recycling_list
+- immersive engineering excavator
+
+recipes:
+- Petal apothecary requires mana diamond or pearl instead of flower petal
+- Ars book made with manasteel tools
+- Hex staves made with livingwood twigs
+- Hex cypher replace one ingot with with manasteel, trinket with elementium, artifact with terrasteel
+- Remove crafting recipe for Thermal gears, only made via ImmEng automation
+- Flux Core replace Eye of Ender with Bucket of Resonent Ender
+
+quests/rituals:
+- Beginning of Age of Magic makes a mana diamond for making a petal apothecary
+- Beginning of Age of Technology makes hammer and wirecutters, via steel ingots
+
+key clashes:
+- z and maybe y on ctrl-z ctrl-y with effortless building
+
+don't forget to:
+- disable advanced tooltips
+- remove configs for removed mods
+
+server config:
+- chunk loading permissions and amount
+- allow flying
+- hard difficulty
+- pregen seeds
