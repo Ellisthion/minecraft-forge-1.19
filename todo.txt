@@ -2,8 +2,8 @@ change journeymap defaults
 update morejs (check ImmEng villager trades)
 world changes not saving
 immeng multiblock render (fixed in upcoming update)
-test mechanical extruder
 use for echo shard
+spark profiler
 
 ores:
 - botania orechid configuration
