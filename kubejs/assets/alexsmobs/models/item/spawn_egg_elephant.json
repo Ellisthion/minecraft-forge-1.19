@@ -1,6 +1,0 @@
-{
-    "parent": "item/spawner_egg",
-	"textures": {
-    "0": "alexsmobs:item/elephant_spawn_egg"
-  }
-}
