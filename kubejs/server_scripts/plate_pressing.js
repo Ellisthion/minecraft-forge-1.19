@@ -95,7 +95,6 @@ ServerEvents.recipes(event => {
     }
 
     for (let mat of materials) {
-        console.log('Rewriting plate recipes for ' + mat);
         rewritePlate(mat);
     }
 })
