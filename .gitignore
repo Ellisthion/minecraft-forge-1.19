@@ -1,0 +1,9 @@
+/*
+/*/
+
+!/config/
+!/defaultconfigs/
+!/kubejs/
+
+!/.gitignore
+!/todo.txt

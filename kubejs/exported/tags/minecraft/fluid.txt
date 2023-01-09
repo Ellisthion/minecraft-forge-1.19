@@ -1,0 +1,115 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 29, 2022, 2:52:19 PM
+
+#forge:crude_oil
+- thermal:crude_oil (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- sliceanddice:flowing_fertilizer (from sliceanddice-2.0.0.jar)
+- sliceanddice:fertilizer (from sliceanddice-2.0.0.jar)
+- create_confectionery:black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+
+#forge:biodiesel
+- immersiveengineering:biodiesel (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:redstone
+- thermal:redstone (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.0-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.0-universal.jar)
+
+#forge:herbicide
+- immersiveengineering:herbicide (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#sliceanddice:moisturizing
+- minecraft:water (from sliceanddice-2.0.0.jar)
+
+#forge:plantoil
+- immersiveengineering:plantoil (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#forge:gaseous
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#sliceanddice:fertilizer
+- sliceanddice:flowing_fertilizer (from sliceanddice-2.0.0.jar)
+- sliceanddice:fertilizer (from sliceanddice-2.0.0.jar)
+
+#forge:ethanol
+- immersiveengineering:ethanol (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#create:bottomless/deny
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.g.jar)
+- create:chocolate (from create-1.19.2-0.5.0.g.jar)
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.g.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.g.jar)
+
+#forge:concrete
+- immersiveengineering:concrete (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#sliceanddice:burning
+- minecraft:lava (from sliceanddice-2.0.0.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.0.2.33.jar)
+- immersiveengineering:potion (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:ender
+- thermal:ender (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.37.198.jar)
+- cofh_core:experience (from cofh_core-1.19.2-10.0.2.33.jar)
+
+#forge:glowstone
+- thermal:glowstone (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.g.jar)
+- create:tea (from create-1.19.2-0.5.0.g.jar)
+
+#immersiveengineering:drill_fuel
+- #forge:biodiesel (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:latex
+- thermal:latex (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:honey
+- cofh_core:honey (from cofh_core-1.19.2-10.0.2.33.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.g.jar)
+- create:honey (from create-1.19.2-0.5.0.g.jar)
+
+#forge:creosote
+- thermal:creosote (from thermal_core-1.19.2-10.0.0.1.jar)
+- immersiveengineering:creosote (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#blueflame:soul_flame_source
+- allthemodium:soul_lava? (from blueflame-1.19.2-0.1.0.2.jar)
+- allthemodium:flowing_soul_lava? (from blueflame-1.19.2-0.1.0.2.jar)
+
+#forge:phenolic_resin
+- immersiveengineering:phenolic_resin (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:acetaldehyde
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
