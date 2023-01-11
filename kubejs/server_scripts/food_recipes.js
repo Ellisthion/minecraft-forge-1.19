@@ -3,6 +3,10 @@ ServerEvents.recipes(event => {
     // remove the Farmer's Delight dough recipes
     event.remove({ output: '#forge:dough', mod: 'farmersdelight' });
 
+    // Clean up
+    event.remove({ id: 'farmersdelight:wheat_dough_from_water'});
+    event.remove({ id: 'farmersdelight:wheat_dough_from_eggs'});
+
     // Remove wheat -> bread recipes, must go via dough
     event.remove({ output: 'minecraft:bread', mod: 'minecraft' });
     event.remove({ output: 'minecraft:bread', mod: 'quark' });

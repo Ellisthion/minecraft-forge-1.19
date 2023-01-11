@@ -1,9 +1,6 @@
 change journeymap defaults
-update morejs (check ImmEng villager trades)
-world changes not saving
 immeng multiblock render (fixed in upcoming update)
-use for echo shard
-spark profiler
+piston crash when moving hoppers (canary bug)
 
 ores:
 - botania orechid configuration
@@ -28,6 +25,7 @@ key clashes:
 don't forget to:
 - disable advanced tooltips
 - remove configs for removed mods
+- bcc.json
 
 server config:
 - chunk loading permissions and amount
