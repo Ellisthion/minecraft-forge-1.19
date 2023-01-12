@@ -1,11 +1,15 @@
 change journeymap defaults
 immeng multiblock render (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
+tip for searching tags with $
 
 ores:
-- botania orechid configuration
-- immersive engineering preferredOres and arc_recycling_list
-- immersive engineering excavator
+- botania orechid configuration, reduced output for silver and lead
+- quest mentioning the above, immeng excavator
+
+questions:
+- orechid with deepslate gives better rates for aluminium, tin, nickel
+- excavator on galena vein a good way of getting more silver and lead
 
 recipes:
 - Petal apothecary requires mana diamond or pearl instead of flower petal

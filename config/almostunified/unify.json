@@ -86,9 +86,12 @@
     "uranium",
     "zinc",
     "cast_iron",
-    "rose_gold"
+    "rose_gold",
+    "niter"
   ],
-  "priorityOverrides": {},
+  "priorityOverrides": {
+    "forge:storage_blocks/steel": "immersiveengineering"
+  },
   "ignoredTags": [],
   "ignoredItems": [],
   "ignoredRecipeTypes": [
