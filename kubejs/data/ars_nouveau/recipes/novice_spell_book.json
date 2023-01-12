@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "botania:manasteel_shovel"
+    },
+    {
+      "item": "botania:manasteel_pick"
+    },
+    {
+      "item": "botania:manasteel_axe"
+    },
+    {
+      "item": "botania:manasteel_sword"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:novice_spell_book"
+  }
+}

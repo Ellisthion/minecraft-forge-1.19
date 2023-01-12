@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "I": {
+      "item": "hexcasting:amethyst_dust"
+    },
+    "M": {
+      "item": "botania:manasteel_ingot"
+    }
+  },
+  "pattern": [
+    " M ",
+    "CIC",
+    " C "
+  ],
+  "result": {
+    "item": "hexcasting:cypher"
+  }
+}

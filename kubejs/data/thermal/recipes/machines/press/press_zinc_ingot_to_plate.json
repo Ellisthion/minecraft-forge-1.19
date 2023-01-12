@@ -1,0 +1,13 @@
+{
+    "type": "thermal:press",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/zinc"
+        }
+    ],
+    "results": [
+        {
+            "item": "createdeco:zinc_sheet"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "botania:metamorphic_apothecary",
+  "key": {
+    "C": {
+      "item": "botania:metamorphic_forest_cobblestone"
+    },
+    "P": {
+      "item": "botania:mana_diamond"
+    }
+  },
+  "pattern": [
+    "CPC",
+    " C ",
+    "CCC"
+  ],
+  "result": {
+    "item": "botania:apothecary_forest"
+  }
+}

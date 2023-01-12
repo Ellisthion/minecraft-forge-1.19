@@ -1,0 +1,13 @@
+{
+    "type": "thermal:press",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/cast_iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "createdeco:cast_iron_sheet"
+        }
+    ]
+}
