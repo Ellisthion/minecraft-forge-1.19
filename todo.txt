@@ -1,8 +1,6 @@
 change journeymap defaults
 immeng multiblock render (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
-tip for searching tags with $
-tips for Torchmaster
 
 recipes:
 - Flux Core replace Eye of Ender with Bucket of Resonent Ender
