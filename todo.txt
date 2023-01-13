@@ -1,13 +1,9 @@
-change journeymap defaults
 immeng multiblock render (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
 
-recipes:
-- Flux Core replace Eye of Ender with Bucket of Resonent Ender
-
 quests/rituals:
 - Beginning of Age of Magic makes a mana diamond for making a petal apothecary
-- Beginning of Age of Technology makes hammer and wirecutters, via steel ingots
+- Beginning of Age of Technology makes steel ingots for making hammmer and wirecutters
 - orechid with deepslate gives better rates for aluminium, tin, nickel
 - excavator on galena vein a good way of getting more silver and lead
 

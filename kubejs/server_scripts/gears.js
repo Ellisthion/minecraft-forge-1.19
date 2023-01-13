@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
         'signalum',
         'lumium',
         'enderium',
+        'flux'
     ];
 
     for (let material of materials) {
@@ -14,6 +15,6 @@ ServerEvents.recipes(event => {
             input: { "tag": `forge:ingots/${material}` },
             mold: "immersiveengineering:mold_gear",
             result: { "tag": `forge:gears/${material}` },
-        });
+        }); 
     }
 });

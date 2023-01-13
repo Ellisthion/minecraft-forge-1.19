@@ -1,0 +1,22 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "key":{
+        "f":{
+            "tag":"forge:string"
+        },
+        "i":{
+            "tag":"forge:ingots/steel"
+        },
+        "s":{
+            "tag":"forge:rods/wooden"
+        }
+    },
+    "pattern":[
+        " if",
+        " si",
+        "s  "
+    ],
+    "result":{
+        "item":"immersiveengineering:hammer"
+    }
+}

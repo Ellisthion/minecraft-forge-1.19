@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "key":{
+        "i":{
+            "tag":"forge:ingots/steel"
+        },
+        "s":{
+            "tag":"forge:rods/wooden"
+        }
+    },
+    "pattern":[
+        "si",
+        " s"
+    ],
+    "result":{
+        "item":"immersiveengineering:wirecutter"
+    }
+}

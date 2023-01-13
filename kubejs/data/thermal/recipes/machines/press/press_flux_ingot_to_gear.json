@@ -1,0 +1,17 @@
+{
+    "type": "thermal:press",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/flux",
+        "count": 4
+      },
+      {
+        "item": "thermal:press_gear_die"
+      }
+    ],
+    "result": [
+      {
+        "item": "redstone_arsenal:flux_gear"
+      }
+    ]
+  }
