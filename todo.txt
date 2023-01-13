@@ -1,5 +1,7 @@
 immeng multiblock render (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
+custom loading screen
+custom splash screen
 
 quests/rituals:
 - Beginning of Age of Magic makes a mana diamond for making a petal apothecary
@@ -7,11 +9,7 @@ quests/rituals:
 - orechid with deepslate gives better rates for aluminium, tin, nickel
 - excavator on galena vein a good way of getting more silver and lead
 
-key clashes:
-- z and maybe y on ctrl-z ctrl-y with effortless building
-
 don't forget to:
-- disable advanced tooltips
 - remove configs for removed mods
 - bcc.json
 
