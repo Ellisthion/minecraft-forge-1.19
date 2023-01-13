@@ -1,0 +1,8 @@
+{  
+    "fluid_type.create_confectionery.black_chocolate": "Dark Chocolate",
+    "fluid_type.create_confectionery.white_chocolate": "White Chocolate",
+    "fluid_type.create_confectionery.ruby_chocolate": "Ruby Chocolate",
+    "fluid_type.create_confectionery.caramel": "Caramel",
+    "fluid_type.create_confectionery.hot_chocolate": "Hot Chocolate",
+    "create_confectionary:black_chocolate_bucket": "Dark Chocolate Bucket"
+}

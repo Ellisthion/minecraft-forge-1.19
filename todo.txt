@@ -10,8 +10,7 @@ quests/rituals:
 - excavator on galena vein a good way of getting more silver and lead
 
 don't forget to:
-- remove configs for removed mods
-- bcc.json
+- bcc config
 
 server config:
 - chunk loading permissions and amount
