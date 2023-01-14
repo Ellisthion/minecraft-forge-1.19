@@ -3,11 +3,7 @@ piston crash when moving hoppers (canary bug)
 custom loading screen
 custom splash screen
 
-test some assembly required
-check ftb and filter mods
-check ars creo
 crafting creative items
-
 
 quests/rituals:
 - Beginning of Age of Magic makes a mana diamond for making a petal apothecary
