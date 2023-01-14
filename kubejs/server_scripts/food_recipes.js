@@ -11,6 +11,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:bread', mod: 'minecraft' });
     event.remove({ output: 'minecraft:bread', mod: 'quark' });
 
+    // Dough only made by mixing or bulk washing
+    event.remove({ id: 'create:crafting/appliances/dough' })
+    event.remove({ id: 'createcafe:crafting/oreo_dough_shapeless' })
+
     // Cake from flour
     event.remove({ output: 'minecraft:cake' })
     event.shaped('minecraft:cake', [
@@ -53,12 +57,12 @@ ServerEvents.recipes(event => {
     // Cookies from dough
     event.remove({ output: 'minecraft:cookie' })
     event.shapeless('minecraft:cookie', [
-        'minecraft:honey_bottle',
+        'create_confectionery:bar_of_black_chocolate', // Chocolate instead of cocoa beans
         '#forge:dough'
     ])
     event.remove({ output: 'farmersdelight:honey_cookie' })
     event.shapeless('farmersdelight:honey_cookie', [
-        'minecraft:cocoa_beans',
+        'minecraft:honey_bottle',
         '#forge:dough'
     ])
     event.remove({ output: 'farmersdelight:sweet_berry_cookie' })
@@ -77,6 +81,13 @@ ServerEvents.recipes(event => {
     event.replaceInput({ output: 'neapolitan:vanilla_cake' }, 'minecraft:wheat', '#forge:flour')
     event.replaceInput({ output: 'neapolitan:adzuki_cake' }, 'minecraft:wheat', '#forge:flour')
     event.replaceInput({ output: 'neapolitan:banana_bread' }, 'minecraft:wheat', '#forge:flour')
+
+    // Remove neapolitan chocolate bar recipe
+    event.remove({ id: 'neapolitan:chocolate/chocolate_bar' })
+
+    // Farmer's Delight hot cocoa from cocoa powder because why not
+    // In datapack
+    //event.replaceInput({ id: 'farmersdelight:cooking/hot_cocoa' }, 'minecraft:cocoa_beans', 'create_confectionery:cocoa_powder')
 });
 
 ServerEvents.tags('item', event => {
