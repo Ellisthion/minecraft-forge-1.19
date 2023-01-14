@@ -7,4 +7,6 @@
 
 !/.gitignore
 !/todo.txt
-config/jei/world/
+
+config/jei/
+config/defaultoptions/servers.dat
