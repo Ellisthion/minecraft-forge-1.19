@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BB",
+        "BB"
+    ],
+    "key": {
+        "B": {
+            "item": "create_confectionery:chocolate_bricks"
+        }
+    },
+    "result": {
+        "item": "neapolitan:chocolate_bricks",
+        "count": 4
+    }
+}

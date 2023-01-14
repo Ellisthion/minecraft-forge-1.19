@@ -3,15 +3,10 @@ piston crash when moving hoppers (canary bug)
 custom loading screen
 custom splash screen
 
-coins duplicates
-remove sushi go rice
-neapolitan chocolate bricks
-
+test some assembly required
 check ftb and filter mods
 check ars creo
-
 crafting creative items
-test some assembly required
 
 
 quests/rituals:
