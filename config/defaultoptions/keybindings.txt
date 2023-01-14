@@ -48,7 +48,7 @@ key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.botania_corporea_request:key.keyboard.c
 key_key.curios.open.desc:key.keyboard.g
-key_Options Gui:key.keyboard.i
+key_Options Gui:key.keyboard.unknown
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.unknown
