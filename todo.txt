@@ -19,3 +19,7 @@ server config:
 - allow flying
 - hard difficulty
 - pregen seeds
+
+server must remove:
+- distant horizons
+- rubidium
