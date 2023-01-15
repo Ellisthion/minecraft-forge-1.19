@@ -1,0 +1,12 @@
+{
+	id: "5126BBD21CD4239A"
+	group: ""
+	order_index: 3
+	filename: "age_of_flea"
+	title: "Age of Destiny"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

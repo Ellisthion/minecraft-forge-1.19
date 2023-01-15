@@ -1,0 +1,237 @@
+{
+	id: "0149EB5CF8AB415F"
+	group: ""
+	order_index: 1
+	filename: "age_of_magic"
+	title: "Age of Magic"
+	icon: "botania:spark"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Primary mod: Botania"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "The Botania mod is nature-themed magitech. It is essential for this and later ages."
+			dependencies: ["038E10D9252EAD0A"]
+			hide: true
+			id: "27058ADE4F844678"
+			tasks: [{
+				id: "1A8F29CDAA826EFE"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "41CDC9BF279B15D3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Secondary mod: Hex Casting"
+			x: -5.0d
+			y: -1.5d
+			subtitle: "An optional magic mod for programmable spellcasting."
+			dependencies: ["27058ADE4F844678"]
+			id: "0C03864AF98CB076"
+			tasks: [{
+				id: "6615FD47160F065D"
+				type: "item"
+				title: "Any #hexcasting:staves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hexcasting:staves"
+					}
+				}
+			}]
+			rewards: [{
+				id: "49662ABF3D5D1DA3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Primary mod: Ars Nouveau"
+			x: -5.0d
+			y: 3.0d
+			subtitle: "The Ars Nouveau mod allows creating custom magic spells. It is required for this age."
+			dependencies: ["27058ADE4F844678"]
+			id: "6014ED55D91678C7"
+			tasks: [{
+				id: "465CFED7A0C4CCBB"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [{
+				id: "097AD417690D7189"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Mana catering"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Let's fancy up the menu for the festival for the Flea of Destiny."
+			dependencies: ["27058ADE4F844678"]
+			id: "0B1E8D8D9AA2D8B4"
+			tasks: [{
+				id: "09BF74532016D2A5"
+				type: "item"
+				item: "botania:mana_cookie"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "27AAE4BA4958EF93"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Nouveau catering"
+			x: -1.5d
+			y: 3.0d
+			subtitle: "The festival will be magical."
+			dependencies: ["6014ED55D91678C7"]
+			id: "135A6DE701E3EA6E"
+			tasks: [{
+				id: "574A5E51A37BF724"
+				type: "item"
+				item: "ars_nouveau:source_berry_pie"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65CAFCC826098CE4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Summoning new ores"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "To continue into the next age, we need ores that don't spawn naturally. Craft and automate the Botania Orechid."
+			dependencies: ["27058ADE4F844678"]
+			id: "0762959B57CB4672"
+			tasks: [{
+				id: "298E71F3EA184107"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "645E79A7EF98AFBB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Optional mod: Eccentric Tome"
+			x: -5.0d
+			y: 4.5d
+			subtitle: "If you have too many mod-specific books in your inventory, the Eccentric Tome can unify them if you wish."
+			dependencies: ["038E10D9252EAD0A"]
+			hide: true
+			id: "5D0A19705447E60E"
+			tasks: [{
+				id: "6C9CA707343C1892"
+				type: "item"
+				item: {
+					id: "eccentrictome:tome"
+					Count: 1b
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E4974901937D298"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Silver platters?"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Silver might be good for serving food during the festival."
+			dependencies: ["0762959B57CB4672"]
+			id: "6B56E4C51C147943"
+			tasks: [{
+				id: "081A3665306FE314"
+				type: "item"
+				item: "thermal:silver_ingot"
+			}]
+			rewards: [{
+				id: "5F0C77F7CF466553"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Slay the Gaia Guardian"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Demonstrate your mastery of Botania by slaying the Gaia Guardian."
+			dependencies: ["27058ADE4F844678"]
+			id: "0C23BA340FD0736A"
+			tasks: [{
+				id: "16C1DA9EB31866F2"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "29FCC524F9D2AE08"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Optional mod: Ars Creo"
+			x: -4.0d
+			y: 4.5d
+			subtitle: "The Ars Creo mod allows spell turrets to be used on Create contraptions."
+			dependencies: ["038E10D9252EAD0A"]
+			hide: true
+			id: "5667B5B04B08A5B1"
+			tasks: [{
+				id: "1B9B4535B750172F"
+				type: "item"
+				item: "ars_creo:starbuncle_wheel"
+			}]
+			rewards: [{
+				id: "62BBC6E8C18C4297"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Conduct the Ritual of Magic"
+			tags: ["ritual_magic"]
+			x: 1.5d
+			y: 0.0d
+			subtitle: "The Flea of Destiny must conduct the Ritual of Magic to bring electricity into the world."
+			dependencies: [
+				"0B1E8D8D9AA2D8B4"
+				"135A6DE701E3EA6E"
+				"0C23BA340FD0736A"
+				"6B56E4C51C147943"
+			]
+			id: "277CA736299241F8"
+			tasks: [{
+				id: "1FAA2BF98F8DB424"
+				type: "custom"
+			}]
+			rewards: [{
+				id: "2C91DE0181872FB9"
+				type: "item"
+				item: "thermal:steel_ingot"
+				count: 64
+			}]
+		}
+	]
+	quest_links: [ ]
+}

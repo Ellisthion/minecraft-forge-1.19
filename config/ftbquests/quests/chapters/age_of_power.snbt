@@ -1,0 +1,252 @@
+{
+	id: "2375095EFB1F1D85"
+	group: ""
+	order_index: 2
+	filename: "age_of_power"
+	title: "Age of Power"
+	icon: "immersiveengineering:wirecoil_electrum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Primary mod: Immersive Engineering"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "The Immersive Engineering mod offers a retro-futuristic approach to electric technology. It is essential for this age."
+			dependencies: ["277CA736299241F8"]
+			hide: true
+			id: "45753BD545618DCD"
+			tasks: [{
+				id: "7712BFCC70322123"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B35F7D1659EF2AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Gear automation"
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Use an Immersive Engineering metal press to make gears, allowing you to proceed into Thermal Expansion."
+			dependencies: ["45753BD545618DCD"]
+			id: "1378980000B64C11"
+			tasks: [{
+				id: "730B232087752D3A"
+				type: "item"
+				title: "Any #forge:gears"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:gears"
+					}
+				}
+			}]
+			rewards: [{
+				id: "38F44448E36EED9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Primary mod: Thermal Expansion"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "The Thermal Expansion mod offers a wide range of machines powered by Redstone Flux."
+			dependencies: ["1378980000B64C11"]
+			id: "48EBD561E233060F"
+			tasks: [{
+				id: "3D1B10D597D9592D"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [{
+				id: "30129D7DCFBC32AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Short on lead or silver?"
+			icon: "thermal:silver_ore"
+			x: -1.5d
+			y: -2.0d
+			subtitle: "The Orechid doesn't have good rates on lead or silver. Try finding a galena vein and setting up an Excavator."
+			dependencies: ["277CA736299241F8"]
+			hide: true
+			id: "2500155780C4DA45"
+			tasks: [{
+				id: "22D242D38EACF98E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:survey_tools"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "63FB31E2EED9C1EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Short on ores?"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "The Orechid gives better rates on many valuable ores if you use deepslate rather than stone."
+			dependencies: ["277CA736299241F8"]
+			hide: true
+			id: "30D186F123536D57"
+			tasks: [{
+				id: "5242D83035DA489E"
+				type: "item"
+				item: "thermal:deepslate_nickel_ore"
+			}]
+			rewards: [{
+				id: "7429427CD6B97921"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Silver plates!"
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Silver's the right fit for the festival. Let's make lots of plates!"
+			dependencies: ["45753BD545618DCD"]
+			id: "78475EE2A120E915"
+			tasks: [{
+				id: "4F25DA00DF9B261A"
+				type: "item"
+				item: "thermal:silver_plate"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6DF6C9EB66158E8B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Optional mod: Flux Networks"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Tired of electric wires? Use Flux Networks for wireless power distribution."
+			dependencies: ["48EBD561E233060F"]
+			id: "6B0773790DEC25D0"
+			tasks: [{
+				id: "13CB9471A3097FFC"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [{
+				id: "766BEBDE0DEADB2D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Pewter goblets!"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Only faith in the Flea of Destiny will protect you from lead poisoning."
+			dependencies: ["45753BD545618DCD"]
+			id: "166245784CF795C3"
+			tasks: [{
+				id: "363F51E439A00E7C"
+				type: "item"
+				item: "supplementaries:goblet"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "073A58A316EDDD00"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Pay the caterers?"
+			icon: "thermal:rose_gold_coin"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "The caterers are demanding payment! Or... something about Flea's gambling debts?"
+			dependencies: ["48EBD561E233060F"]
+			id: "78D51BB5B60143CD"
+			tasks: [{
+				id: "00E6E5D8EB49A822"
+				type: "item"
+				item: "thermal:rose_gold_coin"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0810A87C4CBEC469"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Optional mod: Redstone Arsenal"
+			icon: {
+				id: "redstone_arsenal:flux_bow"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.5d
+			y: 2.5d
+			subtitle: "The Redstone Arsenal mod allows you to make equipment powered by Redstone Flux."
+			dependencies: ["277CA736299241F8"]
+			hide: true
+			id: "113FB275A0A4EE2D"
+			tasks: [{
+				id: "275EE82FE557F87F"
+				type: "item"
+				item: "redstone_arsenal:flux_ingot"
+			}]
+			rewards: [{
+				id: "5BEFAA8E636C5287"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Conduct the Ritual of Power"
+			tags: ["ritual_power"]
+			x: 3.5d
+			y: -0.5d
+			subtitle: "The Flea of Destiny must conduct the Ritual of Power to bring forth the Age of Destiny."
+			dependencies: [
+				"78475EE2A120E915"
+				"166245784CF795C3"
+				"78D51BB5B60143CD"
+			]
+			id: "3A543953B0D0C47D"
+			tasks: [{
+				id: "6907D09F410B45A4"
+				type: "custom"
+			}]
+			rewards: [{
+				id: "5869DB8AB2A8E2D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+	quest_links: [ ]
+}

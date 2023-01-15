@@ -56,7 +56,7 @@ key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.m
 key_key.togglecleanview:key.keyboard.unknown
 key_key.effortlessbuilding.hud.desc:key.keyboard.keypad.add
 key_key.effortlessbuilding.replace.desc:key.keyboard.keypad.subtract
@@ -130,7 +130,6 @@ key_key.ars_nouveau.qc7:key.keyboard.unknown
 key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.qc10:key.keyboard.unknown
-key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.l
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.balance:key.keyboard.unknown

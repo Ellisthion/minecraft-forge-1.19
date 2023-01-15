@@ -1,0 +1,387 @@
+{
+	id: "51DB2D8B5D2DF3BB"
+	group: ""
+	order_index: 0
+	filename: "age_of_discovery"
+	title: "Age of Discovery"
+	icon: "create:goggles"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Primary mod: Create"
+			x: -13.0d
+			y: 1.0d
+			subtitle: "The Create mod allows extensive automation whilst keeping the feel of vanilla Minecraft. It also has trains. It is essential for this and later ages."
+			id: "0E4A45E7CCBA1304"
+			tasks: [
+				{
+					id: "4F8774B85D052020"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+				{
+					id: "3CFDE1F7B7104AC0"
+					type: "item"
+					item: "create:zinc_ingot"
+				}
+			]
+			rewards: [{
+				id: "068E6FE68762FEC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Visit the Nether"
+			x: -13.0d
+			y: -3.0d
+			subtitle: "Should be straightforward."
+			id: "45195B82305C5E64"
+			tasks: [{
+				id: "3E0032A1EF59B37E"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "312DC3542AB04838"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Visit the End"
+			x: -11.0d
+			y: -3.0d
+			subtitle: "Less straightforward. You need to find special Ender Eyes from the End Remastered mod."
+			dependencies: ["45195B82305C5E64"]
+			id: "592FE18B91E18A0D"
+			tasks: [{
+				id: "4548E1A1E178A7BB"
+				type: "dimension"
+				icon: {
+					id: "endrem:cursed_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "1D4F268F2E53836C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Kill the Ender Dragon. Twice."
+			x: -9.0d
+			y: -3.0d
+			subtitle: "The Dragon Scale drops from player-spawned dragons, not the first one. The Dragon also gets harder each time..."
+			dependencies: ["592FE18B91E18A0D"]
+			dependency_requirement: "all_started"
+			id: "32EDDB6DF9CA95D6"
+			tasks: [{
+				id: "61DCE3EBE94A0C3E"
+				type: "item"
+				item: "quark:dragon_scale"
+			}]
+			rewards: [{
+				id: "0BA6E7BBC77E9A69"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Snack catering"
+			x: -9.0d
+			y: -1.5d
+			subtitle: "Marshmallows should make a nice snack for the festival."
+			dependencies: ["3E6D8408DA0B05B4"]
+			id: "7A01792FC4BD2729"
+			tasks: [{
+				id: "1D2A5639E19030FE"
+				type: "item"
+				item: "create_confectionery:caramelized_marshmellow_on_a_stick"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22F119EEFCCB6069"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Should we serve sushi?"
+			x: -9.0d
+			y: -0.5d
+			subtitle: "Sushi might be hard to mass produce for the whole festival."
+			dependencies: ["3E6D8408DA0B05B4"]
+			id: "71926AD23C93DA1C"
+			tasks: [{
+				id: "082E3FAF5A4D1979"
+				type: "item"
+				item: "sushigocrafting:tobiko_salmon_california"
+				count: 16L
+				consume_items: true
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "3E4138622E18A400"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Start the catering!"
+			x: -11.0d
+			y: 1.0d
+			subtitle: "The annual festival must have food! We must celebrate the Flea of Destiny!"
+			dependencies: ["0E4A45E7CCBA1304"]
+			id: "3E6D8408DA0B05B4"
+			tasks: [{
+				id: "49FCE9F570AFFC3A"
+				type: "item"
+				item: "minecraft:bread"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7BAFB8F8CEA06782"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Drinks catering"
+			x: -9.0d
+			y: 1.5d
+			subtitle: "Gain the Flea of Destiny's favour with his favourite flavour."
+			dependencies: ["3E6D8408DA0B05B4"]
+			id: "01D86BB094050932"
+			tasks: [{
+				id: "10A6021FDCDFFE56"
+				type: "item"
+				item: "neapolitan:mint_milkshake"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6EBFABC5542D9BD3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Drinks catering 2: Oreo Boogaloo"
+			x: -9.0d
+			y: 2.5d
+			subtitle: "Gotta give people options if they don't like the mint milkshakes."
+			dependencies: ["3E6D8408DA0B05B4"]
+			id: "4D012048256171DF"
+			tasks: [{
+				id: "7101486E90BF0FE1"
+				type: "item"
+				item: "createcafe:oreo_milk_tea"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "693AD311CFB1E4D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "The main course"
+			x: -9.0d
+			y: 0.5d
+			subtitle: "A perfect meal to celebrate the Flea of Destiny."
+			dependencies: ["3E6D8408DA0B05B4"]
+			id: "78CB060C2CDFB36B"
+			tasks: [{
+				id: "02B742CE67E7061B"
+				type: "item"
+				item: "delightful:deluxe_cheeseburger"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "49CF9812E754FDCF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Dessert catering"
+			x: -9.0d
+			y: 3.5d
+			subtitle: "Not what we meant by vanilla Minecraft."
+			dependencies: ["3E6D8408DA0B05B4"]
+			id: "06DDDE0FC29D894B"
+			tasks: [{
+				id: "78D49151CE1034B1"
+				type: "item"
+				item: "neapolitan:vanilla_cake"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59C5CF13FCF45A0B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			tags: ["ritual_discovery"]
+			x: -6.0d
+			y: 1.0d
+			subtitle: "The Flea of Destiny must conduct the Ritual of Discovery to bring magic into the world."
+			dependencies: [
+				"01D86BB094050932"
+				"4D012048256171DF"
+				"06DDDE0FC29D894B"
+				"71926AD23C93DA1C"
+				"7A01792FC4BD2729"
+				"78CB060C2CDFB36B"
+				"32EDDB6DF9CA95D6"
+			]
+			id: "038E10D9252EAD0A"
+			tasks: [{
+				id: "65E7410697F66AFA"
+				type: "custom"
+				title: "Conduct the Ritual of Discovery"
+			}]
+			rewards: [{
+				id: "5CE882908E757538"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 9
+			}]
+		}
+		{
+			title: "Optional mod: Storage Drawers"
+			icon: "storagedrawers:oak_full_drawers_4"
+			x: -12.0d
+			y: 2.5d
+			subtitle: "Storage Drawers are an easy way of managing bulk item storage."
+			id: "41F129B13A547C02"
+			tasks: [{
+				id: "67D5D69F801DDAC1"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [{
+				id: "384AEB17BB96B035"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Optional mod: Sophisticated Backpacks"
+			x: -13.0d
+			y: 3.5d
+			subtitle: "Sophisticated Backpacks is a highly configurable inventory management system."
+			id: "30F62E76A842E6CF"
+			tasks: [{
+				id: "099EF412B2923876"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+				consume_items: false
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "1E384762399AAE9F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Optional mod: Sophisticated Storage"
+			icon: {
+				id: "sophisticatedstorage:limited_gold_barrel_4"
+				Count: 1b
+				tag: {
+					mainColor: 11546150
+					accentColor: 11546150
+				}
+			}
+			x: -12.0d
+			y: 3.5d
+			subtitle: "Sophisticated Storage is a more complicated alternative to Storage Drawers if you need more advanced storage."
+			id: "7C1DAA01217C2B75"
+			tasks: [{
+				id: "0EE0A7B78FBEECB0"
+				type: "item"
+				item: "sophisticatedstorage:upgrade_base"
+			}]
+			rewards: [{
+				id: "4C86F28C69BA71A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Optional mod: Effortless Building"
+			icon: "minecraft:scaffolding"
+			x: -13.0d
+			y: 2.5d
+			subtitle: "Hit alt to access the Effortless Building menu. It'll change your life."
+			id: "108A91BABB8D1765"
+			tasks: [{
+				id: "238B11CA5E26ED3D"
+				type: "item"
+				item: "effortlessbuilding:reach_upgrade1"
+			}]
+			rewards: [{
+				id: "3A49F1CD15BAFD24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Optional mods: Quark, Supplementaries"
+			x: -13.0d
+			y: 4.5d
+			subtitle: "Several mods in this pack like Quark and Supplementaries give lots of new building and decoration options."
+			id: "44E3A721F0C757C5"
+			tasks: [{
+				id: "598F25E8C6892BED"
+				type: "item"
+				item: "quark:paper_wall_sakura"
+			}]
+			rewards: [{
+				id: "16BAD315227C8BF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Optional mod: Comforts"
+			x: -12.0d
+			y: 4.5d
+			subtitle: "Sleeping bags and hammocks are useful for sleeping on the go, or resting through the day."
+			id: "5DC8CD479C0B1C1D"
+			tasks: [{
+				id: "3A41A39F9C418779"
+				type: "item"
+				title: "Any #comforts:sleeping_bags"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+			}]
+			rewards: [{
+				id: "57D82872CAC89187"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+	]
+	quest_links: [ ]
+}

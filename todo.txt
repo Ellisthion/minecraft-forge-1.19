@@ -1,15 +1,14 @@
 immeng multiblock render with canary (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
-custom loading screen
-custom splash screen
+custom menu screen
 
 crafting creative items
+crafting core from quest
+fleatonium quests
+check creative items visible without admin powers
 
-quests/rituals:
-- Beginning of Age of Magic makes a mana diamond for making a petal apothecary
-- Beginning of Age of Technology makes steel ingots for making hammmer and wirecutters
-- orechid with deepslate gives better rates for aluminium, tin, nickel
-- excavator on galena vein a good way of getting more silver and lead
+double check every quest
+
 
 don't forget to:
 - bcc config
