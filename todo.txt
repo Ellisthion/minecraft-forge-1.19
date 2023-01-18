@@ -2,8 +2,6 @@ immeng multiblock render with canary (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
 custom menu screen
 
-sawdust
-
 summoning rituals
 
 double check every quest
@@ -12,6 +10,7 @@ check mod updates (quark has updated)
 
 don't forget to:
 - bcc config
+- readme file and changelog
 
 server config:
 - chunk loading permissions and amount

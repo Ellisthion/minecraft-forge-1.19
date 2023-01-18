@@ -36,7 +36,8 @@
     "forge:coal_coke",
     "forge:sawdust",
     "forge:dough",
-    "forge:chocolate"
+    "forge:chocolate",
+    "forge:dusts/wood"
   ],
   "materials": [
     "aeternium",
