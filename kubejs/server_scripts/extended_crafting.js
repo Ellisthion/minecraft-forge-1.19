@@ -9,29 +9,4 @@ ServerEvents.recipes(event => {
         I: '#forge:ingots/steel',
         B: '#forge:storage_blocks/steel'
     })
-
-    event.custom({
-        type: 'botania:runic_altar',
-        ingredients: [
-            {
-                item: 'minecraft:nether_star'
-            },
-            {
-                item: 'quark:dragon_scale'
-            },
-            {
-                item: 'botania:life_essence'
-            },
-            {
-                item: 'botania:life_essence'
-            },
-            {
-                item: 'botania:life_essence'
-            }
-        ],
-        mana: 85000,
-        output: {
-            item: 'extendedcrafting:ender_star'
-        }
-    })
 })

@@ -33,6 +33,7 @@
 			y: -1.5d
 			subtitle: "An optional magic mod for programmable spellcasting."
 			dependencies: ["27058ADE4F844678"]
+			optional: true
 			id: "0C03864AF98CB076"
 			tasks: [{
 				id: "6615FD47160F065D"
@@ -135,6 +136,7 @@
 			subtitle: "If you have too many mod-specific books in your inventory, the Eccentric Tome can unify them if you wish."
 			dependencies: ["038E10D9252EAD0A"]
 			hide: true
+			optional: true
 			id: "5D0A19705447E60E"
 			tasks: [{
 				id: "6C9CA707343C1892"
@@ -196,6 +198,7 @@
 			subtitle: "The Ars Creo mod allows spell turrets to be used on Create contraptions."
 			dependencies: ["038E10D9252EAD0A"]
 			hide: true
+			optional: true
 			id: "5667B5B04B08A5B1"
 			tasks: [{
 				id: "1B9B4535B750172F"

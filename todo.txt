@@ -2,13 +2,11 @@ immeng multiblock render with canary (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
 custom menu screen
 
-crafting creative items
-crafting core from quest
-fleatonium quests
-check creative items visible without admin powers
+sawdust
+
+summoning rituals
 
 double check every quest
-
 
 don't forget to:
 - bcc config

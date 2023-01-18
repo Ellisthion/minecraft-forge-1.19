@@ -267,6 +267,7 @@
 			x: -12.0d
 			y: 2.5d
 			subtitle: "Storage Drawers are an easy way of managing bulk item storage."
+			optional: true
 			id: "41F129B13A547C02"
 			tasks: [{
 				id: "67D5D69F801DDAC1"
@@ -284,6 +285,7 @@
 			x: -13.0d
 			y: 3.5d
 			subtitle: "Sophisticated Backpacks is a highly configurable inventory management system."
+			optional: true
 			id: "30F62E76A842E6CF"
 			tasks: [{
 				id: "099EF412B2923876"
@@ -311,6 +313,7 @@
 			x: -12.0d
 			y: 3.5d
 			subtitle: "Sophisticated Storage is a more complicated alternative to Storage Drawers if you need more advanced storage."
+			optional: true
 			id: "7C1DAA01217C2B75"
 			tasks: [{
 				id: "0EE0A7B78FBEECB0"
@@ -329,6 +332,7 @@
 			x: -13.0d
 			y: 2.5d
 			subtitle: "Hit alt to access the Effortless Building menu. It'll change your life."
+			optional: true
 			id: "108A91BABB8D1765"
 			tasks: [{
 				id: "238B11CA5E26ED3D"
@@ -346,6 +350,7 @@
 			x: -13.0d
 			y: 4.5d
 			subtitle: "Several mods in this pack like Quark and Supplementaries give lots of new building and decoration options."
+			optional: true
 			id: "44E3A721F0C757C5"
 			tasks: [{
 				id: "598F25E8C6892BED"
@@ -363,6 +368,7 @@
 			x: -12.0d
 			y: 4.5d
 			subtitle: "Sleeping bags and hammocks are useful for sleeping on the go, or resting through the day."
+			optional: true
 			id: "5DC8CD479C0B1C1D"
 			tasks: [{
 				id: "3A41A39F9C418779"

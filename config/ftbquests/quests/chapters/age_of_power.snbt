@@ -84,6 +84,7 @@
 			subtitle: "The Orechid doesn't have good rates on lead or silver. Try finding a galena vein and setting up an Excavator."
 			dependencies: ["277CA736299241F8"]
 			hide: true
+			optional: true
 			id: "2500155780C4DA45"
 			tasks: [{
 				id: "22D242D38EACF98E"
@@ -110,6 +111,7 @@
 			subtitle: "The Orechid gives better rates on many valuable ores if you use deepslate rather than stone."
 			dependencies: ["277CA736299241F8"]
 			hide: true
+			optional: true
 			id: "30D186F123536D57"
 			tasks: [{
 				id: "5242D83035DA489E"
@@ -182,7 +184,6 @@
 		}
 		{
 			title: "Pay the caterers?"
-			icon: "thermal:rose_gold_coin"
 			x: 1.5d
 			y: 1.0d
 			subtitle: "The caterers are demanding payment! Or... something about Flea's gambling debts?"
@@ -191,7 +192,7 @@
 			tasks: [{
 				id: "00E6E5D8EB49A822"
 				type: "item"
-				item: "thermal:rose_gold_coin"
+				item: "thermal:electrum_coin"
 				count: 2000L
 				consume_items: true
 			}]
@@ -213,6 +214,7 @@
 			subtitle: "The Redstone Arsenal mod allows you to make equipment powered by Redstone Flux."
 			dependencies: ["277CA736299241F8"]
 			hide: true
+			optional: true
 			id: "113FB275A0A4EE2D"
 			tasks: [{
 				id: "275EE82FE557F87F"
@@ -242,9 +244,9 @@
 				type: "custom"
 			}]
 			rewards: [{
-				id: "5869DB8AB2A8E2D5"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "0B35DAC32FDEDFEA"
+				type: "item"
+				item: "extendedcrafting:crafting_core"
 			}]
 		}
 	]

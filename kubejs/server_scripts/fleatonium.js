@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
             ingredient: {
               item: input
             },
-            loops: 5,
+            loops: 3,
             results: [
               {
                 item: result
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
         })
     }
 
-    make('minecraft:echo_shard', 'immersiveengineering:plate_duroplast', 'thermal:ender', 'kubejs:fleatonium_green');
+    make('minecraft:prismarine_crystals', 'immersiveengineering:plate_duroplast', 'thermal:ender', 'kubejs:fleatonium_green');
     make('ars_nouveau:source_gem', 'thermal:cured_rubber', 'thermal:redstone', 'kubejs:fleatonium_black');
     make('botania:dragonstone', 'thermal:rosin', 'thermal:glowstone', 'kubejs:fleatonium_red');
 })
