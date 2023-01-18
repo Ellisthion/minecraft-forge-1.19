@@ -8,6 +8,8 @@ summoning rituals
 
 double check every quest
 
+check mod updates (quark has updated)
+
 don't forget to:
 - bcc config
 
