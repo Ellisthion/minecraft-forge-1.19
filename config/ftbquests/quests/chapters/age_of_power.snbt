@@ -150,6 +150,7 @@
 			y: 2.5d
 			subtitle: "Tired of electric wires? Use Flux Networks for wireless power distribution."
 			dependencies: ["48EBD561E233060F"]
+			optional: true
 			id: "6B0773790DEC25D0"
 			tasks: [{
 				id: "13CB9471A3097FFC"
@@ -240,8 +241,9 @@
 			]
 			id: "3A543953B0D0C47D"
 			tasks: [{
-				id: "6907D09F410B45A4"
-				type: "custom"
+				id: "5BD3DE267D7076C7"
+				type: "item"
+				item: "kubejs:age_proof_technology"
 			}]
 			rewards: [{
 				id: "0B35DAC32FDEDFEA"

@@ -265,9 +265,9 @@
 			]
 			id: "0235A23B0A24E9DB"
 			tasks: [{
-				id: "7C1BC834F06EC502"
-				type: "checkmark"
-				title: "Fleatopia"
+				id: "2C3EFD7FB0AE1F37"
+				type: "item"
+				item: "kubejs:age_proof_destiny"
 			}]
 			rewards: [
 				{

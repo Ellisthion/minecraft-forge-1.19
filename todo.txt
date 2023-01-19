@@ -2,11 +2,19 @@ immeng multiblock render with canary (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
 custom menu screen
 
-summoning rituals
+tooltips for ritual things
+standardise marshmallows
+fleatopia ritual
+test spice of life
+only flea start ritual
+search for todo
 
 double check every quest
 
 check mod updates (quark has updated)
+- new quark config: disable 2x slab recipe probs, disable 9x crafting, check golden carrot crate
+- maybe use ancient fruit for something
+- check supplementaries update?
 
 don't forget to:
 - bcc config

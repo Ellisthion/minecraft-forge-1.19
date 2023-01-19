@@ -250,9 +250,9 @@
 			]
 			id: "038E10D9252EAD0A"
 			tasks: [{
-				id: "65E7410697F66AFA"
-				type: "custom"
-				title: "Conduct the Ritual of Discovery"
+				id: "42006E5BDB990F74"
+				type: "item"
+				item: "kubejs:age_proof_discovery"
 			}]
 			rewards: [{
 				id: "5CE882908E757538"

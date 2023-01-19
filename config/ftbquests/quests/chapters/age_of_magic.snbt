@@ -225,8 +225,9 @@
 			]
 			id: "277CA736299241F8"
 			tasks: [{
-				id: "1FAA2BF98F8DB424"
-				type: "custom"
+				id: "641D7AFC2F707587"
+				type: "item"
+				item: "kubejs:age_proof_magic"
 			}]
 			rewards: [{
 				id: "2C91DE0181872FB9"
