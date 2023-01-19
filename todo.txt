@@ -2,7 +2,6 @@ immeng multiblock render with canary (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
 custom menu screen
 
-test spice of life
 search for todo
 
 double check every quest
