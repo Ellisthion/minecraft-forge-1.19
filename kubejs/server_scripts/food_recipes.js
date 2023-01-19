@@ -88,6 +88,12 @@ ServerEvents.recipes(event => {
     // Farmer's Delight hot cocoa from cocoa powder because why not
     // In datapack
     //event.replaceInput({ id: 'farmersdelight:cooking/hot_cocoa' }, 'minecraft:cocoa_beans', 'create_confectionery:cocoa_powder')
+
+    // Replace Delightful marshmallows with Create Confectionery
+    event.replaceInput({ id: 'delightful:food/smore_from_chocolate' }, 'delightful:cooked_marshmallow_stick', 'create_confectionery:marshmallow')
+    event.remove({ id: 'delightful:food/marshmallow_stick_from_water_bottle' })
+    event.remove({ id: 'delightful:food/marshmallow_stick_create_confectionery' })
+    event.remove({ id: 'delightful:campfire/marshmallow_stick' })
 });
 
 ServerEvents.tags('item', event => {

@@ -2,11 +2,7 @@ immeng multiblock render with canary (fixed in upcoming update)
 piston crash when moving hoppers (canary bug)
 custom menu screen
 
-tooltips for ritual things
-standardise marshmallows
-fleatopia ritual
 test spice of life
-only flea start ritual
 search for todo
 
 double check every quest
