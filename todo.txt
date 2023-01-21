@@ -1,12 +1,8 @@
-immeng multiblock render with canary (fixed in upcoming update)
-piston crash when moving hoppers (canary bug)
 custom menu screen
 
 search for todo
 
 double check every quest
-
-oil sands, again
 
 don't forget to:
 - bcc config
@@ -18,10 +14,6 @@ server config:
 - hard difficulty
 - pregen seeds
 
-server must remove:
-- distant horizons
-- rubidium
-
 test on multiplayer:
--ritual
--team reward
+- ritual
+- team reward

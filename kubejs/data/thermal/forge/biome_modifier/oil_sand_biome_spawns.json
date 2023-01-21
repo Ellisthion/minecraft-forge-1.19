@@ -1,22 +1,7 @@
 {
     "type": "forge:add_features",
     "biomes": {
-      "type": "forge:and",
-      "values": [
-        "#minecraft:is_overworld",
-        {
-          "type": "forge:or",
-          "values": [
-            "#forge:is_desert",
-            {
-              "type": "forge:or",
-              "values": [
-                "#forge:is_badlands"
-              ]
-            }
-          ]
-        }
-      ]
+      "type": "forge:any"
     },
     "features": "thermal:oil_sand",
     "step": "underground_ores"
