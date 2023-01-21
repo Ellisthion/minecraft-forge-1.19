@@ -1,5 +1,5 @@
 SummoningRituals.start(event => {
-    let fleaOfDestiny = 'MutantFlea';
+    let fleaOfDestiny = 'Mutantflea';
     
     let fleaStartedRitual = event.player != null && event.player.getName().equals(Text.of(fleaOfDestiny));
     if (!fleaStartedRitual) {
