@@ -53,7 +53,7 @@ Updating is currently a little fiddly.
 
 That's sorta it. You can just use that new instance. But if you want to keep your options:
 
-1. In your original instance, DELETE your `config`, `defaultconfigs`, `mods`, and `kubejs` folders
+1. In your original instance, DELETE your `config`, `defaultconfigs`, `mods`, `kubejs`, and `packmenu` folders
 2. Copy in those folders from the new instance
 
 # Server Setup
@@ -84,6 +84,7 @@ Launch the server. It should "just work". If it doesn't, complain bitterly on Wh
     * `config`
     * `defaultconfigs`
     * `kubejs`
+    * `packmenu`
 2. DELETE the following mods from the `mods` folder:
     * `rubidium`
     * `DistantHorizons`
