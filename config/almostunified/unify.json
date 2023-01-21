@@ -34,7 +34,6 @@
     "forge:storage_blocks/raw_{material}",
     "forge:slag",
     "forge:coal_coke",
-    "forge:sawdust",
     "forge:dough",
     "forge:chocolate",
     "forge:dusts/wood"
