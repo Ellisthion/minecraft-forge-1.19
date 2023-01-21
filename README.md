@@ -41,8 +41,8 @@ We are using a modpack file to automatically set up your modded Minecraft instan
 Each instance is treated as totally separate so things like graphics settings and controls aren't copied between, unfortunately.
 
 1. Click Add Instance
-2. TODO Choose import from zip, and import the latest modpack file. Note that it defaults to filtering by .zip files, but our modpack is in .mrpack format.
-3. It should automatically download all the mods and set up the instance.
+2. Choose import from zip, and import the latest modpack zip file
+3. It should automatically download all the mods and set up the instance
 4. Once it's ready, click Launch
 
 ## Updating
