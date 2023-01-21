@@ -6,10 +6,7 @@ search for todo
 
 double check every quest
 
-check mod updates (quark has updated)
-- new quark config: disable 2x slab recipe probs, disable 9x crafting, check golden carrot crate
-- maybe use ancient fruit for something
-- check supplementaries update?
+oil sands, again
 
 don't forget to:
 - bcc config
@@ -24,3 +21,7 @@ server config:
 server must remove:
 - distant horizons
 - rubidium
+
+test on multiplayer:
+-ritual
+-team reward
