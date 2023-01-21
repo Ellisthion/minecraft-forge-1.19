@@ -1,0 +1,9 @@
+{
+	"x": 2,
+	"y": 48,
+	"width": 98,
+	"height": 20,
+	"langKey": "packmenu.pack_info",
+	"action": "OPEN_URL",
+	"data": "https://github.com/Ellisthion/minecraft-forge-1.19"
+}

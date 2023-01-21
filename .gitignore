@@ -4,6 +4,7 @@
 !/config/
 !/defaultconfigs/
 !/kubejs/
+!/packmenu/
 
 !/.gitignore
 !/todo.txt
