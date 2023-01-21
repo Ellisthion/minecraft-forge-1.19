@@ -1,7 +1,5 @@
 double check every quest
 
-try to remove music mod info
-
 don't forget to:
 - bcc config
 - readme file and changelog
