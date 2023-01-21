@@ -1,8 +1,8 @@
 custom menu screen
 
-search for todo
-
 double check every quest
+
+try to remove music mod info
 
 don't forget to:
 - bcc config

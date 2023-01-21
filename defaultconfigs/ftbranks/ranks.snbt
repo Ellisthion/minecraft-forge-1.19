@@ -1,0 +1,29 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+	}
+	vip: {
+		name: "VIP"
+		power: 50
+		ftbranks.name_format: "&bLord {name}"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 50
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "&2{name}"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 50
+	},
+	flea: {
+		name: "Flea"
+		power: 2000
+		ftbranks.name_format: "&6Flea of Destiny"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 50
+	}
+}
