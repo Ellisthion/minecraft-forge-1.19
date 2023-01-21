@@ -44,6 +44,7 @@
 			rewards: [{
 				id: "2E64721A41B99FFB"
 				type: "item"
+				team_reward: true
 				item: "extendedcrafting:flux_star"
 			}]
 		}
@@ -104,6 +105,7 @@
 			rewards: [{
 				id: "35724F1C36F9C317"
 				type: "item"
+				team_reward: true
 				item: "extendedcrafting:ender_star"
 			}]
 		}
@@ -273,38 +275,45 @@
 				{
 					id: "1AEDC288E1184112"
 					type: "item"
+					team_reward: true
 					item: "storagedrawers:creative_vending_upgrade"
 					count: 2
 				}
 				{
 					id: "4299FEB772433469"
 					type: "item"
+					team_reward: true
 					item: "storagedrawers:creative_storage_upgrade"
 				}
 				{
 					id: "79A511D3B6358A32"
 					type: "item"
+					team_reward: true
 					item: "botania:corporea_spark_creative"
 					count: 2
 				}
 				{
 					id: "68492E58BFF46EF8"
 					type: "item"
+					team_reward: true
 					item: "thermal:fluid_tank_creative_augment"
 				}
 				{
 					id: "71484DD3AEA1CA36"
 					type: "item"
+					team_reward: true
 					item: "thermal:machine_efficiency_creative_augment"
 				}
 				{
 					id: "7EBD021013E7A2A1"
 					type: "item"
+					team_reward: true
 					item: "thermal:machine_catalyst_creative_augment"
 				}
 				{
 					id: "6CFD31A616215EF1"
 					type: "item"
+					team_reward: true
 					item: "create:handheld_worldshaper"
 				}
 			]

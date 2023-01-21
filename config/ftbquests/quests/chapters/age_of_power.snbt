@@ -248,6 +248,7 @@
 			rewards: [{
 				id: "0B35DAC32FDEDFEA"
 				type: "item"
+				team_reward: true
 				item: "extendedcrafting:crafting_core"
 			}]
 		}

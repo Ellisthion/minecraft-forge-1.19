@@ -232,6 +232,7 @@
 			rewards: [{
 				id: "2C91DE0181872FB9"
 				type: "item"
+				team_reward: true
 				item: "thermal:steel_ingot"
 				count: 64
 			}]

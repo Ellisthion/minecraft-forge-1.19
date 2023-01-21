@@ -257,6 +257,7 @@
 			rewards: [{
 				id: "5CE882908E757538"
 				type: "item"
+				team_reward: true
 				item: "botania:mana_diamond"
 				count: 9
 			}]
