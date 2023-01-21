@@ -1,4 +1,4 @@
-disableLootManagerReloading = false
+disableLootManagerReloading = true
 hiddenTabs = []
 #Range: 1 ~ 4
 itemsPerRow = 4
