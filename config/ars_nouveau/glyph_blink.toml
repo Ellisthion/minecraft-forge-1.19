@@ -19,4 +19,7 @@
 	distance = 8
 	#Range: 0.0 ~ 2.147483647E9
 	amplify = 3.0
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 3
 

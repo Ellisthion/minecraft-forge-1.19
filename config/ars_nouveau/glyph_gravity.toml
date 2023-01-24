@@ -17,4 +17,7 @@
 	#Potion duration, in seconds
 	#Range: > 0
 	potion_time = 30
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 2
 

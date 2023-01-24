@@ -20,4 +20,7 @@
 	#Extend time bonus, in ticks
 	#Range: > 0
 	extend_time = 10
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 1
 

@@ -20,4 +20,7 @@
 	#Additional max blocks per AOE
 	#Range: > 0
 	aoe_bonus = 50
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 2
 

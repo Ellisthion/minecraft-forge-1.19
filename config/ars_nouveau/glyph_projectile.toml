@@ -17,4 +17,7 @@
 	#Max lifespan of the projectile, in seconds.
 	#Range: > 0
 	max_lifespan = 60
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 1
 

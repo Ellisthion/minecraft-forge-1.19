@@ -64,6 +64,7 @@
 				id: "465CFED7A0C4CCBB"
 				type: "item"
 				item: "ars_nouveau:novice_spell_book"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "097AD417690D7189"

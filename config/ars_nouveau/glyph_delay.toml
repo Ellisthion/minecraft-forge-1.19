@@ -20,4 +20,7 @@
 	#Base duration in ticks.
 	#Range: > 0
 	base_duration = 20
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 1
 

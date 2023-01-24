@@ -34,6 +34,8 @@
 	"Enable Advancement Modification" = true
 	#Set to false to stop quark from adding its own advancements
 	"Enable Quark Advancements" = true
+	#Set to false to disable the popup message telling you that you can config quark in the q menu
+	"Enable Onboarding" = true
 
 [categories]
 	Automation = true
