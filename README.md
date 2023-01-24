@@ -61,7 +61,11 @@ That's sorta it. You can just use that new instance. But if you want to keep you
 ## Fresh Server
 
 1. Set up a Forge `43.2.0` server
-2. Copy the files from the client instance
+2. Copy the following folders from the client instance:
+    * `mods`
+    * `config`
+    * `defaultconfigs`
+    * `kubejs`
 3. DELETE the following mods from the `mods` folder:
     * `rubidium`
     * `DistantHorizons`
@@ -84,7 +88,6 @@ Launch the server. It should "just work". If it doesn't, complain bitterly on Wh
     * `config`
     * `defaultconfigs`
     * `kubejs`
-    * `packmenu`
 2. DELETE the following mods from the `mods` folder:
     * `rubidium`
     * `DistantHorizons`
