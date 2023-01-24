@@ -1,8 +1,5 @@
-double check every quest
-
 don't forget to:
 - bcc config
-- readme file and changelog
 
 server config:
 - allow flying
