@@ -1,9 +1,8 @@
-copper nuggets in storage drawers
-what's up with the label recipe
-archwood cog recipe
-duplicate enchantment book descriptions
-update create
-
-
 don't forget to:
 - bcc config
+
+can't fix:
+- copper nuggets in storage drawers
+
+decided against:
+- archwood planks for cogwheels

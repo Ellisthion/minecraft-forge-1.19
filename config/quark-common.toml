@@ -491,6 +491,7 @@
 	"Gold Tools Have Fortune" = true
 	"Dyeable Item Frames" = true
 	"Coral On Cactus" = true
+	"Horses Swim" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -1524,6 +1525,9 @@
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
+		#Disables mob griefing for only specific entities
+		"Enable Selective Mob Griefing" = true
+		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
