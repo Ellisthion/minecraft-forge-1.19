@@ -1,10 +1,4 @@
 MoreJSEvents.playerStartTrading((event) => {
-    const isImmEngTrader = event.merchant.getName().toString().includes('immersiveengineering');
-
-    if (!isImmEngTrader) {
-        return;
-    }
-
     event.forEachOffers((o, i) => {
         let output = o.getOutput();
 
