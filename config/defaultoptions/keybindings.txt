@@ -101,7 +101,7 @@ key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
 key_key.journeymap.minimap_preset:key.keyboard.backslash
-key_key.journeymap.create_waypoint:key.keyboard.b
+key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_key.journeymap.toggle_waypoints:key.keyboard.unknown
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c

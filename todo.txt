@@ -1,11 +1,9 @@
+copper nuggets in storage drawers
+what's up with the label recipe
+archwood cog recipe
+duplicate enchantment book descriptions
+update create
+
+
 don't forget to:
 - bcc config
-
-server config:
-- allow flying
-- hard difficulty
-- pregen seeds
-
-test on multiplayer:
-- ritual
-- team reward
