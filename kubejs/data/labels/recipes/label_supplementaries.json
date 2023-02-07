@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "00",
-    "00"
+    "000",
+    "000"
   ],
   "key": {
     "0": {
@@ -11,7 +11,7 @@
   },
   "result": {
     "item": "labels:label",
-    "count": 4
+    "count": 6
   },
   "conditions": [
     {

@@ -1,4 +1,3 @@
-Change label recipe again
 Remove uncraftable milk teas
 Remove duplicate sugar cane block
 
