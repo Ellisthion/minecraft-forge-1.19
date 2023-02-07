@@ -75,7 +75,7 @@
 		{
 			title: "Mana catering"
 			x: -1.5d
-			y: 1.5d
+			y: 0.0d
 			subtitle: "Let's fancy up the menu for the festival for the Flea of Destiny."
 			dependencies: ["27058ADE4F844678"]
 			id: "0B1E8D8D9AA2D8B4"
@@ -115,7 +115,7 @@
 		{
 			title: "Summoning new ores"
 			x: -3.0d
-			y: 0.0d
+			y: -3.0d
 			subtitle: "To continue into the next age, we need ores that don't spawn naturally. Craft and automate the Botania Orechid."
 			dependencies: ["27058ADE4F844678"]
 			id: "0762959B57CB4672"
@@ -159,7 +159,7 @@
 		{
 			title: "Silver platters?"
 			x: -1.5d
-			y: 0.0d
+			y: -3.0d
 			subtitle: "Silver might be good for serving food during the festival."
 			dependencies: ["0762959B57CB4672"]
 			id: "6B56E4C51C147943"
@@ -223,6 +223,7 @@
 				"135A6DE701E3EA6E"
 				"0C23BA340FD0736A"
 				"6B56E4C51C147943"
+				"0A3EB7A1CCCE8C33"
 			]
 			id: "277CA736299241F8"
 			tasks: [{
@@ -236,6 +237,26 @@
 				team_reward: true
 				item: "thermal:steel_ingot"
 				count: 64
+			}]
+		}
+		{
+			title: "Cold caffeine catering"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Making ice is easier now, so let's make some iced coffee! Everyone knows Flea is a huge fan of coffee."
+			dependencies: ["27058ADE4F844678"]
+			id: "0A3EB7A1CCCE8C33"
+			tasks: [{
+				id: "5C5684C3C403F909"
+				type: "item"
+				item: "createcafe:strawberry_iced_coffee"
+				count: 2000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E810744C885F03D"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]
