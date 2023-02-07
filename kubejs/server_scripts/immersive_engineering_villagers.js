@@ -2,16 +2,6 @@ MoreJSEvents.playerStartTrading((event) => {
     event.forEachOffers((o, i) => {
         let output = o.getOutput();
 
-        // Don't let players trade for hammer, it skips the progression
-        if (output.sameItem(Item.of('immersiveengineering:hammer'))) {
-            o.disabled = true;
-        }
-
-        // Don't let players trade for wirecutter, it skips the progression
-        if (output.sameItem(Item.of('immersiveengineering:wirecutter'))) {
-            o.disabled = true;
-        }
-
         // Fix buggy ImmEng trader
         // Treated Sticks showing up as a corrupted Air item stack
         // https://github.com/BluSunrize/ImmersiveEngineering/issues/5435

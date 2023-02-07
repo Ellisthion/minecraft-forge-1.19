@@ -1,4 +1,3 @@
-Disable cookies and vanilla cake in trades
 Change label recipe again
 Remove uncraftable milk teas
 Remove duplicate sugar cane block
