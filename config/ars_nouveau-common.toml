@@ -20,6 +20,8 @@
 	#Archwood forest spawn weight
 	#Range: > 0
 	archwoodForest = 2
+	#Inform the player of Dynamic lights once.
+	informLights = true
 
 [drygmy_production]
 	#How much source drygmys consume per generation

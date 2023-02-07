@@ -372,6 +372,8 @@
 		rotten_flesh = 64
 		#Allows zombie horses to be ridden underwater
 		rideable_underwater = true
+		#Convert a zombie horse back by feeding it a golden carrot
+		zombie_horse_inverse_conversion = true
 
 [items]
 

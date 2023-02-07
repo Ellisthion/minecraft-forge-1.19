@@ -1,3 +1,9 @@
+Create deco copper and gold horizontal bars uncraftable
+Disable cookies and vanilla cake in trades
+Change label recipe again
+Remove uncraftable milk teas
+Remove duplicate sugar cane block
+
 don't forget to:
 - bcc config
 
