@@ -1,4 +1,3 @@
-Create deco copper and gold horizontal bars uncraftable
 Disable cookies and vanilla cake in trades
 Change label recipe again
 Remove uncraftable milk teas
@@ -12,3 +11,8 @@ can't fix:
 
 decided against:
 - archwood planks for cogwheels
+
+
+
+
+
