@@ -1,5 +1,4 @@
 Remove uncraftable milk teas
-Remove duplicate sugar cane block
 
 don't forget to:
 - bcc config
