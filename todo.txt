@@ -1,5 +1,3 @@
-Limestone and other stone generation from modded fluids
-
 don't forget to:
 - bcc config
 
