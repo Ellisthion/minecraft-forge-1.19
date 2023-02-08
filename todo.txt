@@ -1,5 +1,6 @@
 don't forget to:
 - bcc config
+- changelog
 
 can't fix:
 - copper nuggets in storage drawers
