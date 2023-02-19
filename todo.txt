@@ -1,7 +1,6 @@
 Update Forge
 Ancient Fruit to fluid xp
 Create fluid xp bottling
-Petal Apothecary recipes
 
 don't forget to:
 - bcc config
