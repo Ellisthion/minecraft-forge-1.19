@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "quark:ancient_fruit"
+    }
+  ],
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "sophisticatedcore:xp_still"
+    }
+  ]
+}

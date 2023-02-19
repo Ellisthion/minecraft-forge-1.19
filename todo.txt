@@ -1,5 +1,4 @@
 Update Forge
-Ancient Fruit to fluid xp
 
 don't forget to:
 - bcc config
