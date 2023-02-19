@@ -1,6 +1,5 @@
 Update Forge
 Ancient Fruit to fluid xp
-Create fluid xp bottling
 
 don't forget to:
 - bcc config
