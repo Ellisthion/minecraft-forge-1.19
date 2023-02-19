@@ -3,7 +3,6 @@ Wool slab recipe conflicts with sleeping bags
 Ancient Fruit to fluid xp
 Create fluid xp bottling
 Petal Apothecary recipes
-Test supplementaries cake with kekimurus
 
 don't forget to:
 - bcc config
