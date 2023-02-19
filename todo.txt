@@ -1,9 +1,14 @@
+Update Forge
+Wool slab recipe conflicts with sleeping bags
+Ancient Fruit to fluid xp
+Create fluid xp bottling
+Petal Apothecary recipes
+Test supplementaries cake with kekimurus
+Hex Casting book in JEI
+
 don't forget to:
 - bcc config
 - changelog
-
-can't fix:
-- copper nuggets in storage drawers
 
 decided against:
 - archwood planks for cogwheels
