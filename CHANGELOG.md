@@ -1,3 +1,6 @@
+# Version 1.3
+- Show Hex Casting book in JEI
+
 # Version 1.2
 - Fix recipe conflicts on gold and copper bars
 - Disable some trades for progression-related items

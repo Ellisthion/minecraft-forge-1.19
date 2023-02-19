@@ -4,7 +4,6 @@ Ancient Fruit to fluid xp
 Create fluid xp bottling
 Petal Apothecary recipes
 Test supplementaries cake with kekimurus
-Hex Casting book in JEI
 
 don't forget to:
 - bcc config
