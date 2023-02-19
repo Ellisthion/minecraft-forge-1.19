@@ -1,5 +1,11 @@
 # Version 1.3
+- IMPORTANT: Update Forge to 43.2.4
 - Show Hex Casting book in JEI
+- Fix recipe conflict between wool slabs and sleeping bags
+- Allow processing Ancient Fruit into fluid Experience
+- Allow Create to bottle fluid Experience
+- Fix some progression recipes
+- Add extra tips
 
 # Version 1.2
 - Fix recipe conflicts on gold and copper bars
@@ -19,6 +25,7 @@
 
 # Version 1.0
 - Initial release! The Flea of Destiny is here!
+- Forge version 43.2.0
 
 # Version 0.1
 - Prerelease
