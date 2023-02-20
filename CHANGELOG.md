@@ -1,3 +1,6 @@
+# Version 1.3.1
+- Downgrade Effortless Building
+
 # Version 1.3
 - IMPORTANT: Update Forge to 43.2.4
 - Updated several mods
