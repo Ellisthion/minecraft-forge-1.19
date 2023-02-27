@@ -1,7 +1,8 @@
 # Version 1.4
-- XP bottles upright on belt
+- Added recipes for Quark blossom saplings
 - Shale, Jasper, and Myalite can be made using the Mechanical Extruder
 - Add Create/Quark stone recipes to Igneous Extruder as well
+- XP bottles upright on belt
 - Fix name of Dark Chocolate Bucket
 
 # Version 1.3.1

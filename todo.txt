@@ -1,4 +1,3 @@
-Quark saplings
 Remove bosses from ars blacklist
 
 don't forget to:
