@@ -1,4 +1,4 @@
-Remove bosses from ars blacklist
+Nothing!
 
 don't forget to:
 - bcc config
