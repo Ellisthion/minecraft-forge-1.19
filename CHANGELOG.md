@@ -2,6 +2,7 @@
 - XP bottles upright on belt
 - Shale, Jasper, and Myalite can be made using the Mechanical Extruder
 - Add Create/Quark stone recipes to Igneous Extruder as well
+- Fix name of Dark Chocolate Bucket
 
 # Version 1.3.1
 - Downgrade Effortless Building
