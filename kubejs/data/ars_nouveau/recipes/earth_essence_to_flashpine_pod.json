@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ars_nouveau:earth_essence"
+      },
+      {
+        "item": "ars_elemental:yellow_archwood_sapling"
+      }
+    ],
+    "result": {
+      "item": "ars_elemental:flashpine_pod"
+    }
+  }
