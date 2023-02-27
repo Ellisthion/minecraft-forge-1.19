@@ -1,0 +1,7 @@
+{
+  "type": "thermal:rock_gen",
+  "adjacent": "create:chocolate",
+  "result": {
+    "item": "create:scoria"
+  }
+}
