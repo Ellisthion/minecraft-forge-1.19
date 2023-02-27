@@ -1,4 +1,3 @@
-Quark stone generation
 Quark saplings
 Dark chocolate bucket lang
 Swap hex casting elementium and terrasteel

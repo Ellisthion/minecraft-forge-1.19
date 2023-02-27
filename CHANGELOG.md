@@ -1,5 +1,6 @@
 # Version 1.4
 - XP bottles upright on belt
+- Shale, Jasper, and Myalite can be made using the Mechanical Extruder
 
 # Version 1.3.1
 - Downgrade Effortless Building
