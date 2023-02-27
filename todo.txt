@@ -1,5 +1,4 @@
 Quark saplings
-Swap hex casting elementium and terrasteel
 Remove bosses from ars blacklist
 
 don't forget to:
@@ -7,7 +6,8 @@ don't forget to:
 - changelog
 
 decided against:
-- archwood planks for cogwheels
+- Archwood planks for cogwheels
+- Swapping hex casting elementium and terrasteel usage - terrasteel is a lot more expensive even if you get it earlier
 
 
 
