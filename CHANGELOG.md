@@ -1,4 +1,5 @@
 # Version 1.4
+- Added Ars Elemental
 - Added recipes for Quark blossom saplings
 - Shale, Jasper, and Myalite can be made using the Mechanical Extruder
 - Add Create/Quark stone recipes to Igneous Extruder as well
