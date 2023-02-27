@@ -1,3 +1,6 @@
+# Version 1.4
+- XP bottles upright on belt
+
 # Version 1.3.1
 - Downgrade Effortless Building
 

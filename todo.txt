@@ -1,4 +1,8 @@
-Nothing!
+Quark stone generation
+Quark saplings
+Dark chocolate bucket lang
+Swap hex casting elementium and terrasteel
+Remove bosses from ars blacklist
 
 don't forget to:
 - bcc config
