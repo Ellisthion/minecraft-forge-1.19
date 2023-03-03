@@ -1,3 +1,9 @@
+# Version 1.5
+- Updated some key mods including Botania and Immersive Engineering
+- Added Canary, a server and client performance mod
+- Added Immersive Engineering multiblock JEI compatibility, and it partially works
+- Removed Model Gap Fix mod due to Canary incompatibility
+
 # Version 1.4
 - Added Ars Elemental
 - Added recipes for Quark blossom saplings
