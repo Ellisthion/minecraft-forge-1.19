@@ -1,3 +1,7 @@
+# Version 1.6
+- Sugarcane, nether wart, and many other plants can now be bone mealed
+- Updated many mods
+
 # Version 1.5
 - Updated some key mods including Botania and Immersive Engineering
 - Added Canary, a server and client performance mod
