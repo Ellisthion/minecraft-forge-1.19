@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "Primary mod: Immersive Engineering"
-			x: -2.5d
-			y: -0.5d
+			x: -3.0d
+			y: -1.5d
 			subtitle: "The Immersive Engineering mod offers a retro-futuristic approach to electric technology. It is essential for this age."
 			dependencies: ["277CA736299241F8"]
 			hide: true
@@ -35,8 +35,8 @@
 		}
 		{
 			title: "Gear automation"
-			x: -2.5d
-			y: 1.0d
+			x: -3.0d
+			y: 0.5d
 			subtitle: "Use an Immersive Engineering metal press to make gears, allowing you to proceed into Thermal Expansion."
 			dependencies: ["45753BD545618DCD"]
 			id: "1378980000B64C11"
@@ -61,7 +61,7 @@
 		{
 			title: "Primary mod: Thermal Expansion"
 			x: -1.0d
-			y: 1.0d
+			y: 0.5d
 			subtitle: "The Thermal Expansion mod offers a wide range of machines powered by Redstone Flux."
 			dependencies: ["1378980000B64C11"]
 			id: "48EBD561E233060F"
@@ -79,8 +79,8 @@
 		{
 			title: "Short on lead or silver?"
 			icon: "thermal:silver_ore"
-			x: -1.5d
-			y: -2.0d
+			x: -2.0d
+			y: -3.0d
 			subtitle: "The Orechid doesn't have good rates on lead or silver. Try finding a galena vein and setting up an Excavator."
 			dependencies: ["277CA736299241F8"]
 			hide: true
@@ -106,8 +106,8 @@
 		}
 		{
 			title: "Short on ores?"
-			x: -2.5d
-			y: -2.0d
+			x: -3.0d
+			y: -3.0d
 			subtitle: "The Orechid gives better rates on many valuable ores if you use deepslate rather than stone."
 			dependencies: ["277CA736299241F8"]
 			hide: true
@@ -126,9 +126,10 @@
 		}
 		{
 			title: "Silver plates!"
-			x: 1.5d
-			y: -2.0d
+			x: 2.5d
+			y: 2.0d
 			subtitle: "Silver's the right fit for the festival. Let's make lots of plates!"
+			hide_dependency_lines: true
 			dependencies: ["45753BD545618DCD"]
 			id: "78475EE2A120E915"
 			tasks: [{
@@ -166,8 +167,9 @@
 		{
 			title: "Pewter goblets!"
 			x: 1.5d
-			y: -0.5d
+			y: 1.5d
 			subtitle: "Only faith in the Flea of Destiny will protect you from lead poisoning."
+			hide_dependency_lines: true
 			dependencies: ["45753BD545618DCD"]
 			id: "166245784CF795C3"
 			tasks: [{
@@ -185,8 +187,8 @@
 		}
 		{
 			title: "Pay the caterers?"
-			x: 1.5d
-			y: 1.0d
+			x: 1.0d
+			y: 0.5d
 			subtitle: "The caterers are demanding payment! Or... something about Flea's gambling debts?"
 			dependencies: ["48EBD561E233060F"]
 			id: "78D51BB5B60143CD"
@@ -210,7 +212,7 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -2.5d
+			x: -3.0d
 			y: 2.5d
 			subtitle: "The Redstone Arsenal mod allows you to make equipment powered by Redstone Flux."
 			dependencies: ["277CA736299241F8"]
@@ -238,6 +240,13 @@
 				"78475EE2A120E915"
 				"166245784CF795C3"
 				"78D51BB5B60143CD"
+				"2433D0845BE3DA2D"
+				"2D8DF6B9BF031092"
+				"2B3E5A28C29042C8"
+				"30C7D87A53952ADC"
+				"734F8C36A958ABD1"
+				"2F45FA7D25EAA3EA"
+				"15E99226A1F43017"
 			]
 			id: "3A543953B0D0C47D"
 			tasks: [{
@@ -250,6 +259,557 @@
 				type: "item"
 				team_reward: true
 				item: "extendedcrafting:crafting_core"
+			}]
+		}
+		{
+			title: "The Weave is damaged!"
+			x: 3.5d
+			y: -5.5d
+			subtitle: "Electricity has disrupted the Winds of Magic! We must stabilise them."
+			hide_dependency_lines: true
+			dependencies: ["45753BD545618DCD"]
+			id: "226E95FA1234FBBF"
+			tasks: [{
+				id: "75CC1E23EC43D6B7"
+				type: "item"
+				item: {
+					id: "botania:spell_cloth"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57116B2407A4B5FF"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 5
+			}]
+		}
+		{
+			title: "Stabilise Elemental Water"
+			icon: "botania:rune_water"
+			x: 3.0d
+			y: -4.0d
+			subtitle: "Combine forms of magic to stabilise the Winds of Water."
+			dependencies: ["226E95FA1234FBBF"]
+			id: "130E5863BAC540F9"
+			tasks: [
+				{
+					id: "3F5325F7203B6928"
+					type: "item"
+					item: "botania:rune_water"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "4B8A95EBEB801124"
+					type: "item"
+					item: "ars_nouveau:water_essence"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "23E13F5A389FF97C"
+					type: "item"
+					item: "ars_nouveau:frostaya_pod"
+					count: 500L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3B6CB2FECDC1F42D"
+					type: "item"
+					item: "ars_elemental:everfull_urn"
+				}
+				{
+					id: "54F0A42A21435680"
+					type: "item"
+					item: "botania:water_rod"
+				}
+			]
+		}
+		{
+			title: "Stabilise Elemental Earth"
+			icon: "botania:rune_earth"
+			x: 5.0d
+			y: -4.0d
+			subtitle: "Combine forms of magic to stabilise the Winds of Earth."
+			dependencies: ["226E95FA1234FBBF"]
+			id: "7384CB5760B73468"
+			tasks: [
+				{
+					id: "29C9EBE1C76F9D1F"
+					type: "item"
+					item: "botania:rune_earth"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "0E9D0B21D5A96D5F"
+					type: "item"
+					item: "ars_nouveau:earth_essence"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "6DFEAF091F07C8A3"
+					type: "item"
+					item: "ars_nouveau:mendosteen_pod"
+					count: 500L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "565E160852DE8B97"
+					type: "item"
+					item: "botania:mining_ring"
+				}
+				{
+					id: "4B6D212A908C4F81"
+					type: "item"
+					item: "botania:terraform_rod"
+				}
+			]
+		}
+		{
+			title: "Stabilise Elemental Fire"
+			icon: "botania:rune_fire"
+			x: 2.0d
+			y: -4.0d
+			subtitle: "Combine forms of magic to stabilise the Winds of Fire."
+			dependencies: ["226E95FA1234FBBF"]
+			id: "7B29290634983E9D"
+			tasks: [
+				{
+					id: "0A97A05BD2A46C48"
+					type: "item"
+					item: "botania:rune_fire"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "5D5343AE1BDC5DA9"
+					type: "item"
+					item: "ars_nouveau:fire_essence"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "2A8FA798911B4BE5"
+					type: "item"
+					item: "ars_nouveau:bombegranate_pod"
+					count: 500L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7E12CF937661FBAE"
+					type: "item"
+					item: "botania:super_lava_pendant"
+				}
+				{
+					id: "75F663DDD500C40B"
+					type: "item"
+					item: "botania:exchange_rod"
+				}
+			]
+		}
+		{
+			title: "Stabilise Elemental Air"
+			icon: "botania:rune_air"
+			x: 4.0d
+			y: -4.0d
+			subtitle: "Combine forms of magic to stabilise the Winds of Air."
+			dependencies: ["226E95FA1234FBBF"]
+			id: "107BA3150E4B62EB"
+			tasks: [
+				{
+					id: "3D83A0AA2B7C48CC"
+					type: "item"
+					item: "botania:rune_air"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "7E66D36CAE0E385B"
+					type: "item"
+					item: "ars_nouveau:air_essence"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "356B687B33E36CC6"
+					type: "item"
+					item: "ars_elemental:flashpine_pod"
+					count: 500L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "72688599A4E2A3EE"
+					type: "item"
+					item: "botania:travel_belt"
+				}
+				{
+					id: "5CBD84FAD77AFA8C"
+					type: "item"
+					item: "botania:rainbow_rod"
+				}
+			]
+		}
+		{
+			title: "Repair the Weave!"
+			x: 3.5d
+			y: -2.5d
+			subtitle: "Quick, apply some magic fibers to that hole in reality! I blame the Hex Casters for intefering with the natural order."
+			dependencies: [
+				"7B29290634983E9D"
+				"130E5863BAC540F9"
+				"107BA3150E4B62EB"
+				"7384CB5760B73468"
+			]
+			id: "2433D0845BE3DA2D"
+			tasks: [
+				{
+					id: "33BAAAEBD935D168"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "38C501E127FD42AB"
+					type: "item"
+					item: "ars_nouveau:blaze_fiber"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "3E3F80325C236727"
+					type: "item"
+					item: "ars_nouveau:end_fiber"
+					count: 1000L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "61A856016A925BAD"
+					type: "item"
+					item: {
+						id: "botania:laputa_shard"
+						Count: 1b
+						tag: {
+							level: 19
+						}
+					}
+				}
+				{
+					id: "09ABF71DDF072668"
+					type: "item"
+					item: "ars_nouveau:ritual_conjure_island_plains"
+				}
+				{
+					id: "1727F85B5C279E80"
+					type: "item"
+					item: "ars_nouveau:ritual_conjure_island_desert"
+				}
+			]
+		}
+		{
+			title: "Rare Offerings"
+			icon: "botania:loonium"
+			x: 5.5d
+			y: 2.0d
+			subtitle: "The Flea of Destiny demands offerings of rare items. Perhaps Botania's Loonium can help?"
+			hide_dependency_lines: true
+			dependencies: ["45753BD545618DCD"]
+			id: "734F8C36A958ABD1"
+			tasks: [{
+				id: "393FA962B5CA792E"
+				type: "item"
+				item: "quark:blank_rune"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2FDD1869094ECF37"
+					type: "item"
+					item: "ars_nouveau:starbuncle_shards"
+					count: 32
+				}
+				{
+					id: "27AEB6622F2018AA"
+					type: "item"
+					item: "ars_nouveau:whirlisprig_shards"
+					count: 32
+				}
+				{
+					id: "7EF4C2B1D6B8DD2E"
+					type: "item"
+					item: "ars_nouveau:wixie_shards"
+					count: 32
+				}
+				{
+					id: "0215C64BC73284B1"
+					type: "item"
+					item: "ars_nouveau:drygmy_shard"
+					count: 32
+				}
+				{
+					id: "3FB89EFCC9683001"
+					type: "item"
+					item: "ars_elemental:siren_shards"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "More Desserts!"
+			x: 3.5d
+			y: 2.0d
+			subtitle: "One of these things is not like the others...?"
+			hide_dependency_lines: true
+			dependencies: ["45753BD545618DCD"]
+			id: "2D8DF6B9BF031092"
+			tasks: [
+				{
+					id: "58395A984B01A9DC"
+					type: "item"
+					item: "minecraft:cake"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "23614CB9AB4867DD"
+					type: "item"
+					item: "neapolitan:chocolate_cake"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "1E8A19F5749CDCDE"
+					type: "item"
+					item: "neapolitan:strawberry_cake"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "16340877F9073F0E"
+					type: "item"
+					item: "neapolitan:vanilla_cake"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "10BAEE866E7FBDC6"
+					type: "item"
+					item: "neapolitan:banana_cake"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "5461572AFB8008E5"
+					type: "item"
+					item: "neapolitan:mint_cake"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "2ACCD3DAE9B2B3B5"
+					type: "item"
+					item: "neapolitan:adzuki_cake"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "17F8EBB2ED098A44"
+					type: "item"
+					item: "create:blaze_cake"
+					count: 1000L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "737C8AB7BEF06A24"
+				type: "item"
+				item: "botania:kekimurus"
+				count: 8
+			}]
+		}
+		{
+			title: "Pi is a nice round number"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "One of these things is not like the others...?"
+			hide_dependency_lines: true
+			dependencies: ["45753BD545618DCD"]
+			id: "2B3E5A28C29042C8"
+			tasks: [
+				{
+					id: "13FC24BC53AD808B"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "374F84CC510FA587"
+					type: "item"
+					item: "farmersdelight:apple_pie"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "0B906B88FC742DC7"
+					type: "item"
+					item: "farmersdelight:chocolate_pie"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "21E8B81ABF578DAD"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "12B40F77DB1B92AB"
+					type: "item"
+					item: "delightful:salmonberry_pie"
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "5A512BB1443A99D2"
+					type: "item"
+					item: "farmersdelight:shepherds_pie_block"
+					count: 1000L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "584A6BF1F3E33536"
+				type: "item"
+				item: "botania:gourmaryllis"
+				count: 8
+			}]
+		}
+		{
+			title: "Silver-tipped weapons!"
+			icon: "immersiveengineering:silver"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Those pesky Ars werewolf things should be vulnerable to this, right? If not, at least it's shiny."
+			dependencies: ["16621995296CCBF0"]
+			id: "30C7D87A53952ADC"
+			tasks: [
+				{
+					id: "465BA9D64B45D6AC"
+					type: "item"
+					item: "immersiveengineering:silver"
+					count: 10000L
+					consume_items: true
+				}
+				{
+					id: "5109E4104ECDC22D"
+					type: "item"
+					item: {
+						id: "delightful:silver_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2000L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "500B8E9CC7CF94CC"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+			}]
+		}
+		{
+			title: "The Festival is under attack!"
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Defend us with the power of TECHNOLOGY!"
+			dependencies: ["45753BD545618DCD"]
+			id: "16621995296CCBF0"
+			tasks: [{
+				id: "03A79567D9F67962"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+				consume_items: false
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "3BA0D6872C3DC776"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+			}]
+		}
+		{
+			title: "Refuel the generators!"
+			icon: "thermal:refined_fuel_bucket"
+			x: 1.0d
+			y: -2.5d
+			subtitle: "Switching the Festival to use electricity has maintenance implications."
+			dependencies: ["16621995296CCBF0"]
+			id: "2F45FA7D25EAA3EA"
+			tasks: [
+				{
+					id: "259E26CE0D9B155C"
+					type: "fluid"
+					fluid: "immersiveengineering:biodiesel"
+					amount: 1000000L
+				}
+				{
+					id: "7081DE1F366361E4"
+					type: "fluid"
+					fluid: "thermal:refined_fuel"
+					amount: 1000000L
+				}
+			]
+			rewards: [{
+				id: "22906B775C9F8497"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "The thermal exhaust vent is exposed!"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "Put some plywood over it!"
+			dependencies: ["16621995296CCBF0"]
+			id: "15E99226A1F43017"
+			tasks: [{
+				id: "6E6A825C245B9671"
+				type: "item"
+				item: "immersiveengineering:fiberboard"
+				count: 2000L
+				consume_items: true
 			}]
 		}
 	]

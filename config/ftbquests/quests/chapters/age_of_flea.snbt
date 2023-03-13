@@ -23,21 +23,21 @@
 					id: "705282B9B8C58135"
 					type: "item"
 					item: "kubejs:fleatonium_green"
-					count: 200L
+					count: 500L
 					consume_items: true
 				}
 				{
 					id: "7E18EE0A8254D9B5"
 					type: "item"
 					item: "kubejs:fleatonium_red"
-					count: 200L
+					count: 500L
 					consume_items: true
 				}
 				{
 					id: "10482C2443EE4B20"
 					type: "item"
 					item: "kubejs:fleatonium_black"
-					count: 200L
+					count: 500L
 					consume_items: true
 				}
 			]
@@ -62,43 +62,43 @@
 				{
 					id: "3EE9AE9F95F4A8C1"
 					type: "item"
-					item: "botania:daffomill"
-					count: 50L
+					item: "botania:floating_daffomill"
+					count: 100L
 					consume_items: true
 				}
 				{
 					id: "0A80A3AF85C5AAB9"
 					type: "item"
-					item: "botania:tangleberrie"
-					count: 50L
+					item: "botania:floating_tangleberrie"
+					count: 100L
 					consume_items: true
 				}
 				{
 					id: "591A61C17FA3126D"
 					type: "item"
-					item: "botania:gourmaryllis"
-					count: 50L
+					item: "botania:floating_gourmaryllis"
+					count: 100L
 					consume_items: true
 				}
 				{
 					id: "5EC778D335FC76A4"
 					type: "item"
-					item: "botania:agricarnation"
-					count: 50L
+					item: "botania:floating_agricarnation"
+					count: 100L
 					consume_items: true
 				}
 				{
 					id: "2812E9A7EDB9B779"
 					type: "item"
-					item: "botania:orechid"
-					count: 50L
+					item: "botania:floating_orechid"
+					count: 100L
 					consume_items: true
 				}
 				{
 					id: "0E0ABE4E167BC4F5"
 					type: "item"
 					item: "botania:mana_bomb"
-					count: 16L
+					count: 8L
 					consume_items: true
 				}
 			]
@@ -132,7 +132,7 @@
 			title: "Gift of Portable Mana"
 			x: 2.5d
 			y: -2.0d
-			subtitle: "You could totally just bind a mana mirror to the Guilty Pool though."
+			subtitle: "In case the Everlasting Guilty Pool isn't infinite enough for you."
 			dependencies: ["3A543953B0D0C47D"]
 			hide: true
 			id: "629B540B1225C4BD"
@@ -197,14 +197,14 @@
 			title: "Gift of Spells"
 			x: 1.5d
 			y: 2.0d
-			subtitle: "The Flea of Destiny assumes this is useful."
+			subtitle: "Delicious and heretical."
 			dependencies: ["3A543953B0D0C47D"]
 			hide: true
 			id: "341D18D46CEA2318"
 			tasks: [{
-				id: "590988838DA94930"
+				id: "4F5883094F2248CA"
 				type: "item"
-				item: "ars_nouveau:creative_spell_book"
+				item: "hexcasting:creative_unlocker"
 			}]
 			rewards: [{
 				id: "12D0AFB621D5B70B"
@@ -225,11 +225,18 @@
 				type: "item"
 				item: "ars_nouveau:creative_source_jar"
 			}]
-			rewards: [{
-				id: "7FDCFF82CA02C496"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "7FDCFF82CA02C496"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4344E844C7DD8AB7"
+					type: "item"
+					item: "ars_nouveau:creative_spell_book"
+				}
+			]
 		}
 		{
 			title: "Gift of Flux"
@@ -244,11 +251,18 @@
 				type: "item"
 				item: "thermal:rf_coil_creative_augment"
 			}]
-			rewards: [{
-				id: "7F2C1E67FDA6A661"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "7F2C1E67FDA6A661"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "492F96218E25D8D3"
+					type: "item"
+					item: "immersiveengineering:capacitor_creative"
+				}
+			]
 		}
 		{
 			icon: "botania:corporea_spark_creative"
@@ -315,6 +329,16 @@
 					type: "item"
 					team_reward: true
 					item: "create:handheld_worldshaper"
+				}
+				{
+					id: "17ABE4E09AA882E9"
+					type: "item"
+					item: "create:creative_fluid_tank"
+				}
+				{
+					id: "5D1941B805DC2CE2"
+					type: "item"
+					item: "create:creative_crate"
 				}
 			]
 		}

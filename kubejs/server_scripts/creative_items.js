@@ -85,8 +85,8 @@ ServerEvents.recipes(event => {
     )
 
     makeItem(
-        'ars_nouveau:creative_spell_book',
-        'ars_nouveau:archmage_spell_book',
+        'hexcasting:creative_unlocker',
+        'hexcasting:uuid_colorizer',
         [
             'minecraft:enchanted_golden_apple',
             'botania:black_lotus',
