@@ -1,5 +1,6 @@
 # Version 1.6
 - Sugarcane, nether wart, and many other plants can now be bone mealed
+- Eggs can now be duplicated using Botania's Conjuration Catalyst
 - Updated many mods
 
 # Version 1.5
