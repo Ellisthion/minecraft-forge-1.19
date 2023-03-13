@@ -2,6 +2,8 @@
 - Sugarcane, nether wart, and many other plants can now be bone mealed
 - Eggs can now be duplicated using Botania's Conjuration Catalyst
 - Enabled spawning of Quark Toretoises
+- Thermal Expansion guidebook (Thermalpedia) now visible in JEI
+- Added and altered some quests
 - Updated many mods
 
 # Version 1.5
