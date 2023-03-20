@@ -1,3 +1,6 @@
+# Version 1.7
+- Fixed some gear recipes
+
 # Version 1.6.1
 - Remove Canary, the Canary is dead
 
