@@ -81,39 +81,39 @@ _version = 1
 				# If enabled, the mod will log information about the renderer OpenGL process. 
 				# This can be useful for debugging. 
 				#
-				logRendererGLEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logRendererGLEvent = "DISABLED"
 				# If enabled, the mod will log performance about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenPerformance = "LOG_WARNING_TO_CHAT_AND_FILE"
+				logWorldGenPerformance = "DISABLED"
 				# If enabled, the mod will log information about file sub-dimension operations. 
 				# This can be useful for debugging. 
 				#
-				logFileSubDimEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logFileSubDimEvent = "DISABLED"
 				# If enabled, the mod will log information about file read/write operations. 
 				# This can be useful for debugging. 
 				#
-				logFileReadWriteEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logFileReadWriteEvent = "DISABLED"
 				# If enabled, the mod will log information about network operations. 
 				# This can be useful for debugging. 
 				#
-				logNetworkEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logNetworkEvent = "DISABLED"
 				# If enabled, the mod will log information about the renderer buffer process. 
 				# This can be useful for debugging. 
 				#
-				logRendererBufferEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logRendererBufferEvent = "DISABLED"
 				# If enabled, the mod will log information about the LOD generation process. 
 				# This can be useful for debugging. 
 				#
-				logLodBuilderEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logLodBuilderEvent = "DISABLED"
 				# If enabled, the mod will log information about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logWorldGenEvent = "DISABLED"
 				# If enabled, the mod will log information about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenLoadEvent = "LOG_WARNING_TO_CHAT_AND_FILE"
+				logWorldGenLoadEvent = "DISABLED"
 
 		[client.advanced.threading]
 			# How many threads are used when building vertex buffers? 

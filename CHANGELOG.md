@@ -1,3 +1,6 @@
+# Version 1.9
+- Disable Distant Horizons error logging
+
 # Version 1.8
 - Added LaserIO for late-game item/fluid/energy/redstone transport
 - Updated some performance mods (Pluto and Rubidium) 
