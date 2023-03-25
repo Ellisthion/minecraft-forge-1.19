@@ -2,7 +2,8 @@ JEIEvents.addItems(event => {
     let books = [
         'hexcasting:thehexbook',
         'thermal:guidebook',
-        'sushigocrafting:sushigocrafting'
+        'sushigocrafting:sushigocrafting',
+        'laserio:laseriobook'
     ]
 
     for (let book of books) {

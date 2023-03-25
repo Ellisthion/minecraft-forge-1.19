@@ -147,7 +147,7 @@
 		}
 		{
 			title: "Optional mod: Flux Networks"
-			x: -1.0d
+			x: -1.5d
 			y: 2.5d
 			subtitle: "Tired of electric wires? Use Flux Networks for wireless power distribution."
 			dependencies: ["48EBD561E233060F"]
@@ -810,6 +810,25 @@
 				item: "immersiveengineering:fiberboard"
 				count: 2000L
 				consume_items: true
+			}]
+		}
+		{
+			title: "Optional Mod: LaserIO"
+			x: -0.5d
+			y: 2.5d
+			subtitle: "Transfer items, fluids, energy, and redstone. Using LASERS!"
+			dependencies: ["48EBD561E233060F"]
+			optional: true
+			id: "57144D5E77AFDDE2"
+			tasks: [{
+				id: "02E3C5BDC8C83075"
+				type: "item"
+				item: "laserio:logic_chip"
+			}]
+			rewards: [{
+				id: "2871C27F8237F9B1"
+				type: "xp"
+				xp: 5
 			}]
 		}
 	]

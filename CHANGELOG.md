@@ -1,3 +1,7 @@
+# Version 1.8
+- Added LaserIO for late-game item/fluid/energy/redstone transport
+- Updated some performance mods (Pluto and Rubidium) 
+
 # Version 1.7
 - Fixed some gear recipes
 
