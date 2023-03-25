@@ -1,4 +1,5 @@
 # Version 1.9
+- Add Bituminous Sands to Immersive Engineering excavator
 - Disable Distant Horizons error logging
 
 # Version 1.8
