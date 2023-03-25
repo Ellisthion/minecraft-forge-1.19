@@ -1,5 +1,6 @@
 # Version 1.9
 - Add Bituminous Sands to Immersive Engineering excavator
+- Added 🗿 recipe since the biome spawning doesn't seem to be working
 - Disable Distant Horizons error logging
 
 # Version 1.8
