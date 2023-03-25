@@ -2,6 +2,7 @@
 - Add Bituminous Sands to Immersive Engineering excavator
 - Added 🗿 recipe since the biome spawning doesn't seem to be working
 - Disable Distant Horizons error logging
+- Disable Pluto to see if that helps
 
 # Version 1.8
 - Added LaserIO for late-game item/fluid/energy/redstone transport
