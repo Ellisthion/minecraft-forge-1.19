@@ -1,3 +1,7 @@
+# Version 1.10
+- Fix progression recipe
+- Add Crafting Station mod
+
 # Version 1.9
 - Add Bituminous Sands to Immersive Engineering excavator
 - Added 🗿 recipe since the biome spawning doesn't seem to be working
