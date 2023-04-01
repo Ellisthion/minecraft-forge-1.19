@@ -101,6 +101,13 @@
 					count: 8L
 					consume_items: true
 				}
+				{
+					id: "46E5B4F9BD860115"
+					type: "item"
+					item: "ars_nouveau:relay_warp"
+					count: 100L
+					consume_items: true
+				}
 			]
 			rewards: [{
 				id: "35724F1C36F9C317"
