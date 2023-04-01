@@ -1,3 +1,6 @@
+# Version 1.11
+- Update Ars! Storage Lectern!
+
 # Version 1.10
 - Fix progression recipe
 - Add Crafting Station mod
