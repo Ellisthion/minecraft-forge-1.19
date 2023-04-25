@@ -8,7 +8,8 @@ decided against:
 - Archwood planks for cogwheels
 - Swapping hex casting elementium and terrasteel usage - terrasteel is a lot more expensive even if you get it earlier
 
-
-
+not worth changing this late:
+- Wheat via ImmEng and Thermal
+- Age of Discover recipe to require Ars Ritual automation
 
 

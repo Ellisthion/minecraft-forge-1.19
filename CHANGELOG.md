@@ -1,3 +1,7 @@
+# Version 1.11.1
+- Server update only
+- Adjusted final ritual
+
 # Version 1.11
 - Update Ars! Storage Lectern!
 

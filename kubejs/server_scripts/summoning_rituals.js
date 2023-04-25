@@ -95,10 +95,8 @@ ServerEvents.recipes(event => {
         .input('minecraft:gold_block')
         .input('minecraft:gold_block')
         .sacrifice('minecraft:villager', 157)
-        .sacrificeRegion(5, 5)
+        .sacrificeRegion(17, 17)
         .recipeTime(200)
-        .blockBelow('minecraft:obsidian')
-        .dayTime('day')
-        .weather('clear')
+        .blockBelow('minecraft:obsidian');
 })
 
