@@ -60,7 +60,7 @@ That's sorta it. You can just use that new instance. But if you want to keep you
 
 ## Fresh Server
 
-1. Set up a Forge `43.2.0` server
+1. Set up a Forge `43.2.4` server
 2. Copy the following folders from the client instance:
     * `mods`
     * `config`
